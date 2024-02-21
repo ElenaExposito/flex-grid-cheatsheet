@@ -1,0 +1,51 @@
+body {
+  font-family: "Courier New";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+  gap: 1rem;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.properties {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 26rem;
+  gap: 0.5rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 2.5rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.property:hover {
+  transform: scale(1.03);
+}

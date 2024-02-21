@@ -1,0 +1,80 @@
+{
+  "name": "flex-grid-cheatsheet",
+  "displayName": "flex-grid-cheatsheet",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flex-grid-cheatsheet.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "flex-grid-cheatsheet.goodBye",
+        "title": "Good Bye"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "package-explorer",
+          "title": "Flexbox and Gridbox Cheatsheet",
+          "icon": "resources/logo.png"
+        }
+      ]
+    },
+    "views": {
+      "package-explorer": [
+        {
+          "id": "package-scm",
+          "name": "Source control"
+        },
+        {
+          "id": "package-flexbox",
+          "name": "Flexbox"
+        },
+        {
+          "id": "package-gridbox",
+          "name": "Gridbox"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "package-scm",
+        "contents": "Welcome to Flexbox and Gridbox Cheatsheet extension.\n[Open Folder](command:vscode.openFolder)\n[Clone Repository](command:git.clone)\n[Say Hello](command:flex-grid-cheatsheet.helloWorld)\n[Say Good Bye](command:flex-grid-cheatsheet.goodBye)\nTo learn more about how to use git and source control in VS Code [read our docs](https://aka.ms/vscode-scm)."
+      },
+      {
+        "view": "package-flexbox",
+        "contents": "[Open Flexbox Cheatsheet](command:flex-grid-cheatsheet.openFlexboxView)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.86.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
