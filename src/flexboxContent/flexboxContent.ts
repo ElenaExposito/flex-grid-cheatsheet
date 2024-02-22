@@ -24,16 +24,24 @@ export function getWebviewContent(
         <h2>Container Properties</h2>
 
         <div class="properties">
-          <h3>Display</h3>
-          <div class="display">
+          <h3>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+              target="_blank"
+              rel="noopener"
+              >Display
+            </a>
+          </h3>
+
+          <div class="display-flex">
             <div class="property" id="display-flex">
               <div>
                 <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex"
                   target="_blank"
                   rel="noopener"
-                  >display</a
-                >: flex;
+                  >display: flex;</a
+                >
               </div>
               <img src="${imagesPath}/display-flex.svg" alt="display: flex;" />
             </div>
@@ -41,11 +49,11 @@ export function getWebviewContent(
             <div class="property" id="display-inline-flex">
               <div>
                 <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-flex"
                   target="_blank"
                   rel="noopener"
-                  >display</a
-                >: inline-flex;
+                  >display: inline-flex;</a
+                >
               </div>
               <img
                 src="${imagesPath}/display-flex.svg"
@@ -59,14 +67,17 @@ export function getWebviewContent(
           <h3>Ordering and Orientation</h3>
 
           <div class="flex-direction">
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction"
+                target="_blank"
+                rel="noopener"
+                >flex-direction</a
+              >
+            </h4>
             <div class="property" id="flex-direction-row">
               <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-direction</a
-                >: row;
+                <span class="property-title">flex-direction</span>: row;
               </div>
               <img
                 src="${imagesPath}/display-flex.svg"
@@ -76,12 +87,7 @@ export function getWebviewContent(
 
             <div class="property" id="flex-direction-row-reverse">
               <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-direction</a
-                >: row-reverse;
+                <span class="property-title">flex-direction</span>: row-reverse;
               </div>
               <img
                 src="${imagesPath}/display-flex.svg"
@@ -91,12 +97,7 @@ export function getWebviewContent(
 
             <div class="property" id="flex-direction-column">
               <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-direction</a
-                >: column;
+                <span class="property-title">flex-direction</span>: column;
               </div>
               <img
                 src="${imagesPath}/display-flex.svg"
@@ -106,12 +107,8 @@ export function getWebviewContent(
 
             <div class="property" id="flex-direction-column-reverse">
               <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-direction</a
-                >: column-reverse;
+                <span class="property-title">flex-direction</span>:
+                column-reverse;
               </div>
               <img
                 src="${imagesPath}/display-flex.svg"
@@ -121,15 +118,16 @@ export function getWebviewContent(
           </div>
 
           <div class="flex-wrap">
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap"
+                target="_blank"
+                rel="noopener"
+                >flex-wrap</a
+              >
+            </h4>
             <div class="property" id="flex-wrap-nowrap">
-              <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-wrap</a
-                >: nowrap;
-              </div>
+              <div><span class="property-title">flex-wrap</span>: nowrap;</div>
               <img
                 src="${imagesPath}/display-flex.svg"
                 alt="flex-wrap: nowrap;"
@@ -137,14 +135,7 @@ export function getWebviewContent(
             </div>
 
             <div class="property" id="flex-wrap-wrap">
-              <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-wrap</a
-                >: wrap;
-              </div>
+              <div><span class="property-title">flex-wrap</span>: wrap;</div>
               <img
                 src="${imagesPath}/display-flex.svg"
                 alt="flex-wrap: wrap;"
@@ -153,12 +144,7 @@ export function getWebviewContent(
 
             <div class="property" id="flex-wrap-wrap-reverse">
               <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
-                  target="_blank"
-                  rel="noopener"
-                  >flex-wrap</a
-                >: wrap-reverse;
+                <span class="property-title">flex-wrap</span>: wrap-reverse;
               </div>
               <img
                 src="${imagesPath}/display-flex.svg"
@@ -195,7 +181,6 @@ export function getWebviewContent(
     <script src="${scriptPath}/custom.js"></script>
   </body>
 </html>
-
 
   `;
 }
