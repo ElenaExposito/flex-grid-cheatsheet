@@ -1,7 +1,7 @@
-function copyTextToClipBoard(text, id) {
-  return function () {
-    const vscode = acquireVsCodeApi();
+const vscode = acquireVsCodeApi();
 
+function copyTextToClipBoard(text) {
+  return function () {
     let textarea = document.createElement("textarea");
     textarea.value = text;
     document.body.appendChild(textarea);
@@ -43,7 +43,7 @@ const texts = [
 
     displayFlexElement?.addEventListener(
       "click",
-      copyTextToClipBoard(value.text, value.id)
+      copyTextToClipBoard(value.text)
     );
   }
 })();
