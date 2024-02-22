@@ -13,7 +13,6 @@ a:hover {
 main {
   display: flex;
   flex-direction: column;
-  margin: 1.2rem;
   gap: 1rem;
 }
 
@@ -22,30 +21,58 @@ h2 {
   display: flex;
   justify-content: center;
   text-decoration: underline;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+h3 {
+  margin: 0;
+  padding: 1rem 0.5rem 0 0.5rem;
+  text-decoration: underline dashed;
+  text-underline-offset: 0.2em;
+}
+
+.container-properties {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .properties {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  max-width: 26rem;
-  gap: 0.5rem;
+  width: 90%;
   border: 2px solid;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 2rem;
+}
+
+.display,
+.flex-direction,
+.flex-wrap,
+.property {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .property {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   min-height: 2.5rem;
   border: 1px solid;
   border-radius: 0.5rem;
   padding: 0.5rem;
   transition: transform 0.3s ease;
+  min-width: 100%;
 }
 
 .property:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
