@@ -56,7 +56,60 @@ const texts = [
     text: "flex-flow: column-reverse wrap;",
   },
 
-  { id: "#justify-start", text: "justify-content: flex-start;" },
+  //justify-content
+  { id: "#justify-content-flex-start", text: "justify-content: flex-start;" },
+  { id: "#justify-content-center", text: "justify-content: center;" },
+  { id: "#justify-content-flex-end", text: "justify-content: flex-end;" },
+  {
+    id: "#justify-content-space-between",
+    text: "justify-content: space-between;",
+  },
+  {
+    id: "#justify-content-space-around",
+    text: "justify-content: space-around;",
+  },
+
+  //align-items
+  { id: "#align-items-flex-start", text: "align-items: flex-start;" },
+  { id: "#align-items-center", text: "align-items: center;" },
+  { id: "#align-items-flex-end", text: "align-items: flex-end;" },
+  { id: "#align-items-baseline", text: "align-items: baseline;" },
+  { id: "#align-items-stretch", text: "align-items: stretch;" },
+
+  //align-content
+  { id: "#align-content-flex-start", text: "align-content: flex-start;" },
+  { id: "#align-content-center", text: "align-content: center;" },
+  { id: "#align-content-flex-end", text: "align-content: flex-end;" },
+  { id: "#align-content-stretch", text: "align-content: stretch;" },
+  { id: "#align-content-space-between", text: "align-content: space-between;" },
+  { id: "#align-content-space-around", text: "align-content: space-around;" },
+
+  //flex-grow
+  { id: "#flex-grow-number", text: "flex-grow: 0;" },
+
+  //flex-shrink
+  { id: "#flex-shrink-number", text: "flex-shrink: 0;" },
+
+  //flex-basis
+  { id: "#flex-basis-auto", text: "flex-basis: auto;" },
+  { id: "#flex-basis-content", text: "flex-basis: content;" },
+  { id: "#flex-basis-size", text: "flex-basis: 100px;" },
+
+  //flex
+  { id: "#flex-grow", text: "flex: grow;" },
+  { id: "#flex-shrink", text: "flex: shrink;" },
+  { id: "#flex-basis", text: "flex: basis;" },
+
+  //align-self
+  { id: "#align-self-auto", text: "align-self: auto;" },
+  { id: "#align-self-flex-start", text: "align-self: flex-start;" },
+  { id: "#align-self-center", text: "align-self: center;" },
+  { id: "#align-self-flex-end", text: "align-self: flex-end;" },
+  { id: "#align-self-baseline", text: "align-self: baseline;" },
+  { id: "#align-self-stretch", text: "align-self: stretch;" },
+
+  //order
+  { id: "#order-number", text: "order: 0;" },
 ];
 
 (function () {

@@ -68,7 +68,17 @@ h4 {
 
 .display-flex,
 .flex-direction,
-.flex-wrap {
+.flex-wrap,
+.flex-flow,
+.justify-content,
+.align-items,
+.align-content,
+.flex-grow,
+.flex-shrink,
+.flex-basis,
+.flex,
+.align-self,
+.order {
   width: 90%;
   display: flex;
   flex-direction: column;
