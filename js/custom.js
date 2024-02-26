@@ -33,26 +33,26 @@ const texts = [
   },
 
   //flex-wrap
-  { id: "#flex-wrap-nowrap", text: "flex-wrap: nowrap" },
-  { id: "#flex-wrap-wrap", text: "flex-wrap: wrap" },
-  { id: "#flex-wrap-wrap-reverse", text: "flex-wrap: wrap-reverse" },
+  { id: "#flex-wrap-nowrap", text: "flex-wrap: nowrap;" },
+  { id: "#flex-wrap-wrap", text: "flex-wrap: wrap;" },
+  { id: "#flex-wrap-wrap-reverse", text: "flex-wrap: wrap-reverse;" },
 
   //flex-flow
-  { id: "flex-flow-row-nowrap", text: "flex-flow: row nowrap;" },
-  { id: "flex-flow-row-wrap", text: "flex-flow: row wrap;" },
+  { id: "#flex-flow-row-nowrap", text: "flex-flow: row nowrap;" },
+  { id: "#flex-flow-row-wrap", text: "flex-flow: row wrap;" },
   {
-    id: "flex-flow-row-reverse-nowrap",
+    id: "#flex-flow-row-reverse-nowrap",
     text: "flex-flow: row-reverse nowrap;",
   },
-  { id: "flex-flow-row-reverse-wrap", text: "flex-flow: row-reverse wrap;" },
-  { id: "flex-flow-column-nowrap", text: "flex-flow: column nowrap;" },
-  { id: "flex-flow-column-wrap", text: "flex-flow: column wrap;" },
+  { id: "#flex-flow-row-reverse-wrap", text: "flex-flow: row-reverse wrap;" },
+  { id: "#flex-flow-column-nowrap", text: "flex-flow: column nowrap;" },
+  { id: "#flex-flow-column-wrap", text: "flex-flow: column wrap;" },
   {
-    id: "flex-flow-column-reverse-nowrap",
+    id: "#flex-flow-column-reverse-nowrap",
     text: "flex-flow: column-reverse nowrap;",
   },
   {
-    id: "flex-flow-column-reverse-wrap",
+    id: "#flex-flow-column-reverse-wrap",
     text: "flex-flow: column-reverse wrap;",
   },
 
