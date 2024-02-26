@@ -1,5 +1,7 @@
 :root {
-  --property-title: red;
+  --property-title: rgb(255, 177, 0);
+  --border-box: black;
+  --item-color: rgb(0, 122, 204);
 }
 
 *,
@@ -96,7 +98,7 @@ h4 {
   min-height: 2.5rem;
   border: 1px solid;
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   transition: transform 0.3s ease;
   min-width: 100%;
   cursor: pointer;
@@ -108,4 +110,39 @@ h4 {
 
 .property-title {
   color: var(--property-title);
+}
+
+.show {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
+  border: 1px solid var(--border-box);
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 12%;
+  height: 100%;
+  background-color: var(--item-color);
+}
+
+.item-2 {
+  opacity: 0.9;
+}
+
+.item-3 {
+  opacity: 0.75;
+}
+
+.item-4 {
+  opacity: 0.6;
+}
+
+.item-5 {
+  opacity: 0.55;
+}
+
+.item-6 {
+  opacity: 0.4;
 }
