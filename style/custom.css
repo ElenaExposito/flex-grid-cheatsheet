@@ -119,11 +119,35 @@ h4 {
   border: 1px solid var(--border-box);
   display: flex;
   justify-content: space-between;
+  gap: 0.1rem;
+}
+
+.two-columns {
+  flex-direction: column;
+}
+
+.column {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  gap: 0.1rem;
 }
 
 .item {
   width: 12%;
   height: 100%;
+  background-color: var(--item-color);
+}
+
+.item-column {
+  width: 12%;
+  height: 1rem;
+  background-color: var(--item-color);
+}
+
+.item-reverse {
+  height: 12%;
+  width: 100%;
   background-color: var(--item-color);
 }
 
@@ -145,4 +169,32 @@ h4 {
 
 .item-6 {
   opacity: 0.4;
+}
+
+.show-display-inline-flex {
+  display: inline-flex;
+}
+
+.show-flex-direction-row {
+  flex-direction: row;
+}
+
+.show-flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.show-flex-direction-column {
+  flex-direction: column;
+}
+
+.show-flex-direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.show-flex-wrap-nowrap {
+  flex-wrap: nowrap;
+}
+
+.show-flex-wrap-wrap {
+  flex-wrap: wrap;
 }

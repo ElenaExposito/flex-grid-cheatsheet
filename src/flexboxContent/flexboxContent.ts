@@ -43,7 +43,7 @@ export function getWebviewContent(
                   >display: flex;</a
                 >
               </div>
-              <div class="show show-display-flex">
+              <div class="show">
                 <span class="item item-1"></span>
                 <span class="item item-2"></span>
                 <span class="item item-3"></span>
@@ -62,10 +62,14 @@ export function getWebviewContent(
                   >display: inline-flex;</a
                 >
               </div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="display: inline-flex;"
-              />
+              <div class="show show-display-inline-flex">
+                <span class="item item-1"></span>
+                <span class="item item-2"></span>
+                <span class="item item-3"></span>
+                <span class="item item-4"></span>
+                <span class="item item-5"></span>
+                <span class="item item-6"></span>
+              </div>
             </div>
           </div>
         </div>
@@ -86,30 +90,42 @@ export function getWebviewContent(
               <div>
                 <span class="property-title">flex-direction</span>: row;
               </div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="flex-direction: row;"
-              />
+              <div class="show show-flex-direction-row">
+                <span class="item item-1"></span>
+                <span class="item item-2"></span>
+                <span class="item item-3"></span>
+                <span class="item item-4"></span>
+                <span class="item item-5"></span>
+                <span class="item item-6"></span>
+              </div>
             </div>
 
             <div class="property" id="flex-direction-row-reverse">
               <div>
                 <span class="property-title">flex-direction</span>: row-reverse;
               </div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="flex-direction: row-reverse;"
-              />
+              <div class="show show-flex-direction-row-reverse">
+                <span class="item item-1"></span>
+                <span class="item item-2"></span>
+                <span class="item item-3"></span>
+                <span class="item item-4"></span>
+                <span class="item item-5"></span>
+                <span class="item item-6"></span>
+              </div>
             </div>
 
             <div class="property" id="flex-direction-column">
               <div>
                 <span class="property-title">flex-direction</span>: column;
               </div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="flex-direction: column;"
-              />
+              <div class="show show-flex-direction-column">
+                <span class="item-reverse item-1"></span>
+                <span class="item-reverse item-2"></span>
+                <span class="item-reverse item-3"></span>
+                <span class="item-reverse item-4"></span>
+                <span class="item-reverse item-5"></span>
+                <span class="item-reverse item-6"></span>
+              </div>
             </div>
 
             <div class="property" id="flex-direction-column-reverse">
@@ -117,10 +133,14 @@ export function getWebviewContent(
                 <span class="property-title">flex-direction</span>:
                 column-reverse;
               </div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="flex-direction: column-reverse;"
-              />
+              <div class="show show-flex-direction-column-reverse">
+                <span class="item-reverse item-1"></span>
+                <span class="item-reverse item-2"></span>
+                <span class="item-reverse item-3"></span>
+                <span class="item-reverse item-4"></span>
+                <span class="item-reverse item-5"></span>
+                <span class="item-reverse item-6"></span>
+              </div>
             </div>
           </div>
 
@@ -135,18 +155,34 @@ export function getWebviewContent(
             </h4>
             <div class="property" id="flex-wrap-nowrap">
               <div><span class="property-title">flex-wrap</span>: nowrap;</div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="flex-wrap: nowrap;"
-              />
+              <div class="show show-flex-wrap-nowrap">
+                <span class="item item-1"></span>
+                <span class="item item-2"></span>
+                <span class="item item-3"></span>
+                <span class="item item-4"></span>
+                <span class="item item-5"></span>
+                <span class="item item-6"></span>
+              </div>
             </div>
 
             <div class="property" id="flex-wrap-wrap">
               <div><span class="property-title">flex-wrap</span>: wrap;</div>
-              <img
-                src="${imagesPath}/display-flex.svg"
-                alt="flex-wrap: wrap;"
-              />
+              <div class="show two-columns show-flex-wrap-wrap">
+                <div class="column">
+                  <span class="item-column item-1"></span>
+                  <span class="item-column item-1"></span>
+                  <span class="item-column item-2"></span>
+                  <span class="item-column item-2"></span>
+                  <span class="item-column item-3"></span>
+                  <span class="item-column item-3"></span>
+                </div>
+                <div class="column">
+                  <span class="item-column item-4"></span>
+                  <span class="item-column item-4"></span>
+                  <span class="item-column item-5"></span>
+                  <span class="item-column item-6"></span>
+                </div>
+              </div>
             </div>
 
             <div class="property" id="flex-wrap-wrap-reverse">
