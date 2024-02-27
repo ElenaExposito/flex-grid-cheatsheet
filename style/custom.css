@@ -236,7 +236,7 @@ h4 {
 }
 
 .show-flex-flow-row-reverse-wrap {
-  flex-flow: row-reverse wrap;
+  flex-flow: row-reverse nowrap;
 }
 
 .show-flex-flow-column-nowrap {
@@ -384,4 +384,19 @@ h4 {
 }
 .show-order-number:nth-child(6) {
   order: 1;
+}
+
+@media (max-width: 305px) {
+  .property {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .property-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
 }
