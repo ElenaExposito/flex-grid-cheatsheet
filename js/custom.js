@@ -95,11 +95,6 @@ const texts = [
   { id: "#flex-basis-content", text: "flex-basis: content;" },
   { id: "#flex-basis-size", text: "flex-basis: 100px;" },
 
-  //flex
-  { id: "#flex-grow", text: "flex: grow;" },
-  { id: "#flex-shrink", text: "flex: shrink;" },
-  { id: "#flex-basis", text: "flex: basis;" },
-
   //align-self
   { id: "#align-self-auto", text: "align-self: auto;" },
   { id: "#align-self-flex-start", text: "align-self: flex-start;" },
