@@ -24,70 +24,92 @@
             </a>
           </h3>
 
-          <div class="display-flex">
-            <div class="property" id="display-flex">
+          <div class="display-grid">
+            <div class="property" id="display-grid">
               <div>
                 <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#flex"
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#grid"
                   target="_blank"
                   rel="noopener"
                   >display: grid;</a
                 >
               </div>
-              <div class="show">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
-            <div class="property" id="display-inline-flex">
+            <div class="property" id="display-inline-grid">
               <div>
                 <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-flex"
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-grid"
                   target="_blank"
                   rel="noopener"
-                  >display: inline-flex;</a
+                  >display: inline-grid;</a
                 >
               </div>
-              <div class="show show-display-inline-flex">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-display-inline-grid">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
+              </div>
+            </div>
+
+            <div class="property" id="display-subgrid">
+              <div>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid"
+                  target="_blank"
+                  rel="noopener"
+                  >display: subgrid;</a
+                >
+              </div>
+              <div class="show-grid show-display-subgrid">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
           </div>
         </div>
 
         <div class="properties">
-          <h3>Ordering and Orientation</h3>
+          <h3>Explicit Grid</h3>
 
-          <div class="flex-direction">
+          <div class="grid-template-columns">
             <h4>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns"
                 target="_blank"
                 rel="noopener"
-                >flex-direction</a
+                >grid-template-columns</a
               >
             </h4>
-            <div class="property" id="flex-direction-row">
+            <div class="property" id="grid-template-columns-none">
               <div>
-                <span class="property-title">flex-direction</span>: row;
+                <span class="property-title">grid-template-columns</span>: none;
               </div>
-              <div class="show show-flex-direction-row">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-grid-template-columns-none">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
@@ -95,13 +117,13 @@
               <div>
                 <span class="property-title">flex-direction</span>: row-reverse;
               </div>
-              <div class="show show-flex-direction-row-reverse">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-flex-direction-row-reverse">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
@@ -109,7 +131,7 @@
               <div>
                 <span class="property-title">flex-direction</span>: column;
               </div>
-              <div class="show show-flex-direction-column">
+              <div class="show-grid show-flex-direction-column">
                 <span class="item-reverse item-1"></span>
                 <span class="item-reverse item-2"></span>
                 <span class="item-reverse item-3"></span>
@@ -124,7 +146,7 @@
                 <span class="property-title">flex-direction</span>:
                 column-reverse;
               </div>
-              <div class="show show-flex-direction-column-reverse">
+              <div class="show-grid show-flex-direction-column-reverse">
                 <span class="item-reverse item-1"></span>
                 <span class="item-reverse item-2"></span>
                 <span class="item-reverse item-3"></span>
@@ -146,19 +168,19 @@
             </h4>
             <div class="property" id="flex-wrap-nowrap">
               <div><span class="property-title">flex-wrap</span>: nowrap;</div>
-              <div class="show show-flex-wrap-nowrap">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-flex-wrap-nowrap">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
             <div class="property" id="flex-wrap-wrap">
               <div><span class="property-title">flex-wrap</span>: wrap;</div>
-              <div class="show two-columns show-flex-wrap-wrap">
+              <div class="show-grid two-columns show-flex-wrap-wrap">
                 <div class="column">
                   <span class="item-column item-1"></span>
                   <span class="item-column item-1"></span>
@@ -180,7 +202,7 @@
               <div>
                 <span class="property-title">flex-wrap</span>: wrap-reverse;
               </div>
-              <div class="show two-columns show-flex-wrap-wrap-reverse">
+              <div class="show-grid two-columns show-flex-wrap-wrap-reverse">
                 <div class="column">
                   <span class="item-column item-1"></span>
                   <span class="item-column item-1"></span>
@@ -212,13 +234,13 @@
               <div>
                 <span class="property-title">flex-flow</span>: row nowrap;
               </div>
-              <div class="show show-flex-flow-row-nowrap">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-flex-flow-row-nowrap">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
@@ -226,13 +248,13 @@
               <div>
                 <span class="property-title">flex-flow</span>: row wrap;
               </div>
-              <div class="show show-flex-flow-row-wrap">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-flex-flow-row-wrap">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
@@ -241,13 +263,13 @@
                 <span class="property-title">flex-flow</span>: row-reverse
                 nowwrap;
               </div>
-              <div class="show show-flex-flow-row-reverse-nowrap">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-flex-flow-row-reverse-nowrap">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
@@ -255,13 +277,13 @@
               <div>
                 <span class="property-title">flex-flow</span>: row-reverse wrap;
               </div>
-              <div class="show show-flex-flow-row-reverse-wrap">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-flex-flow-row-reverse-wrap">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
@@ -269,7 +291,7 @@
               <div>
                 <span class="property-title">flex-flow</span>: column nowrap;
               </div>
-              <div class="show two-columns show-flex-flow-column-nowrap">
+              <div class="show-grid two-columns show-flex-flow-column-nowrap">
                 <div class="column">
                   <span class="item-column item-1"></span>
                   <span class="item-column item-1"></span>
@@ -291,7 +313,7 @@
               <div>
                 <span class="property-title">flex-flow</span>: column wrap;
               </div>
-              <div class="show two-columns show-flex-flow-column-wrap">
+              <div class="show-grid two-columns show-flex-flow-column-wrap">
                 <div class="column">
                   <span class="item-column item-1"></span>
                   <span class="item-column item-1"></span>
@@ -315,7 +337,7 @@
                 nowrap;
               </div>
               <div
-                class="show two-columns show-flex-flow-column-reverse-nowrap"
+                class="show-grid two-columns show-flex-flow-column-reverse-nowrap"
               >
                 <div class="column">
                   <span class="item-column item-1"></span>
@@ -339,7 +361,9 @@
                 <span class="property-title">flex-flow</span>: column-reverse
                 wrap;
               </div>
-              <div class="show two-columns show-flex-flow-column-reverse-wrap">
+              <div
+                class="show-grid two-columns show-flex-flow-column-reverse-wrap"
+              >
                 <div class="column">
                   <span class="item-column item-1"></span>
                   <span class="item-column item-1"></span>
@@ -375,10 +399,10 @@
               <div>
                 <span class="property-title">justify-content</span>: flex-start;
               </div>
-              <div class="show show-justify-content-flex-start">
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
+              <div class="show-grid show-justify-content-flex-start">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
               </div>
             </div>
 
@@ -386,10 +410,10 @@
               <div>
                 <span class="property-title">justify-content</span>: center;
               </div>
-              <div class="show show-justify-content-center">
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
+              <div class="show-grid show-justify-content-center">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
               </div>
             </div>
 
@@ -397,10 +421,10 @@
               <div>
                 <span class="property-title">justify-content</span>: flex-end;
               </div>
-              <div class="show show-justify-content-flex-end">
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
+              <div class="show-grid show-justify-content-flex-end">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
               </div>
             </div>
 
@@ -409,10 +433,10 @@
                 <span class="property-title">justify-content</span>:
                 space-between;
               </div>
-              <div class="show show-justify-content-space-between">
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
+              <div class="show-grid show-justify-content-space-between">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
               </div>
             </div>
 
@@ -421,10 +445,10 @@
                 <span class="property-title">justify-content</span>:
                 space-around;
               </div>
-              <div class="show show-justify-content-space-around">
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
-                <span class="item item-1"></span>
+              <div class="show-grid show-justify-content-space-around">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-1"></span>
               </div>
             </div>
           </div>
@@ -446,13 +470,13 @@
               <div>
                 <span class="property-title">align-items</span>: flex-start;
               </div>
-              <div class="show show-align-items-flex-start">
-                <span class="item align item-1"></span>
-                <span class="item align item-2"></span>
-                <span class="item align item-3"></span>
-                <span class="item align item-4"></span>
-                <span class="item align item-5"></span>
-                <span class="item align item-6"></span>
+              <div class="show-grid show-align-items-flex-start">
+                <span class="grid-item align item-1"></span>
+                <span class="grid-item align item-2"></span>
+                <span class="grid-item align item-3"></span>
+                <span class="grid-item align item-4"></span>
+                <span class="grid-item align item-5"></span>
+                <span class="grid-item align item-6"></span>
               </div>
             </div>
 
@@ -460,13 +484,13 @@
               <div>
                 <span class="property-title">align-items</span>: center;
               </div>
-              <div class="show show-align-items-center">
-                <span class="item align item-1"></span>
-                <span class="item align item-2"></span>
-                <span class="item align item-3"></span>
-                <span class="item align item-4"></span>
-                <span class="item align item-5"></span>
-                <span class="item align item-6"></span>
+              <div class="show-grid show-align-items-center">
+                <span class="grid-item align item-1"></span>
+                <span class="grid-item align item-2"></span>
+                <span class="grid-item align item-3"></span>
+                <span class="grid-item align item-4"></span>
+                <span class="grid-item align item-5"></span>
+                <span class="grid-item align item-6"></span>
               </div>
             </div>
 
@@ -474,13 +498,13 @@
               <div>
                 <span class="property-title">align-items</span>: flex-end;
               </div>
-              <div class="show show-align-items-flex-end">
-                <span class="item align item-1"></span>
-                <span class="item align item-2"></span>
-                <span class="item align item-3"></span>
-                <span class="item align item-4"></span>
-                <span class="item align item-5"></span>
-                <span class="item align item-6"></span>
+              <div class="show-grid show-align-items-flex-end">
+                <span class="grid-item align item-1"></span>
+                <span class="grid-item align item-2"></span>
+                <span class="grid-item align item-3"></span>
+                <span class="grid-item align item-4"></span>
+                <span class="grid-item align item-5"></span>
+                <span class="grid-item align item-6"></span>
               </div>
             </div>
 
@@ -488,13 +512,13 @@
               <div>
                 <span class="property-title">align-items</span>: baseline;
               </div>
-              <div class="show show-align-items-baseline">
-                <span class="item align item-1"></span>
-                <span class="item align item-2"></span>
-                <span class="item align item-3"></span>
-                <span class="item align item-4"></span>
-                <span class="item align item-5"></span>
-                <span class="item align item-6"></span>
+              <div class="show-grid show-align-items-baseline">
+                <span class="grid-item align item-1"></span>
+                <span class="grid-item align item-2"></span>
+                <span class="grid-item align item-3"></span>
+                <span class="grid-item align item-4"></span>
+                <span class="grid-item align item-5"></span>
+                <span class="grid-item align item-6"></span>
               </div>
             </div>
 
@@ -502,13 +526,13 @@
               <div>
                 <span class="property-title">align-items</span>: stretch;
               </div>
-              <div class="show show-align-items-stretch">
-                <span class="item item-1"></span>
-                <span class="item item-2"></span>
-                <span class="item item-3"></span>
-                <span class="item item-4"></span>
-                <span class="item item-5"></span>
-                <span class="item item-6"></span>
+              <div class="show-grid show-align-items-stretch">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-2"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-4"></span>
+                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
           </div>
@@ -530,20 +554,20 @@
               <div>
                 <span class="property-title">align-content</span>: flex-start;
               </div>
-              <div class="show show-align-content-flex-start">
+              <div class="show-grid show-align-content-flex-start">
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-3"></span>
-                  <span class="item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-3"></span>
                 </div>
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-5"></span>
-                  <span class="item align-content-item item-6"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-5"></span>
+                  <span class="grid-item align-content-item item-6"></span>
                 </div>
               </div>
             </div>
@@ -552,20 +576,20 @@
               <div>
                 <span class="property-title">align-content</span>: center;
               </div>
-              <div class="show show-align-content-center">
+              <div class="show-grid show-align-content-center">
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-3"></span>
-                  <span class="item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-3"></span>
                 </div>
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-5"></span>
-                  <span class="item align-content-item item-6"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-5"></span>
+                  <span class="grid-item align-content-item item-6"></span>
                 </div>
               </div>
             </div>
@@ -574,20 +598,20 @@
               <div>
                 <span class="property-title">align-content</span>: flex-end;
               </div>
-              <div class="show show-align-content-flex-end">
+              <div class="show-grid show-align-content-flex-end">
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-3"></span>
-                  <span class="item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-3"></span>
                 </div>
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-5"></span>
-                  <span class="item align-content-item item-6"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-5"></span>
+                  <span class="grid-item align-content-item item-6"></span>
                 </div>
               </div>
             </div>
@@ -596,7 +620,7 @@
               <div>
                 <span class="property-title">align-content</span>: stretch;
               </div>
-              <div class="show two-columns show-align-content-stretch">
+              <div class="show-grid two-columns show-align-content-stretch">
                 <div class="column">
                   <span class="item-column item-1"></span>
                   <span class="item-column item-1"></span>
@@ -619,20 +643,20 @@
                 <span class="property-title">align-content</span>:
                 space-between;
               </div>
-              <div class="show show-align-content-space-between">
+              <div class="show-grid show-align-content-space-between">
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-3"></span>
-                  <span class="item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-3"></span>
                 </div>
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-5"></span>
-                  <span class="item align-content-item item-6"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-5"></span>
+                  <span class="grid-item align-content-item item-6"></span>
                 </div>
               </div>
             </div>
@@ -641,20 +665,20 @@
               <div>
                 <span class="property-title">align-content</span>: space-around;
               </div>
-              <div class="show show-align-content-space-around">
+              <div class="show-grid show-align-content-space-around">
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-1"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-2"></span>
-                  <span class="item align-content-item item-3"></span>
-                  <span class="item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-1"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-2"></span>
+                  <span class="grid-item align-content-item item-3"></span>
+                  <span class="grid-item align-content-item item-3"></span>
                 </div>
                 <div class="column column-align-content">
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-4"></span>
-                  <span class="item align-content-item item-5"></span>
-                  <span class="item align-content-item item-6"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-4"></span>
+                  <span class="grid-item align-content-item item-5"></span>
+                  <span class="grid-item align-content-item item-6"></span>
                 </div>
               </div>
             </div>
@@ -679,10 +703,10 @@
             </h4>
             <div class="property" id="flex-grow-number">
               <div><span class="property-title">flex-grow</span>: number;</div>
-              <div class="show">
-                <span class="item show-flex-grow-number item-1"></span>
-                <span class="item show-flex-grow-number item-3"></span>
-                <span class="item show-flex-grow-number item-5"></span>
+              <div class="show-grid">
+                <span class="grid-item show-flex-grow-number item-1"></span>
+                <span class="grid-item show-flex-grow-number item-3"></span>
+                <span class="grid-item show-flex-grow-number item-5"></span>
               </div>
             </div>
           </div>
@@ -702,9 +726,9 @@
               </div>
               <div class="show">
                 <span
-                  class="item item-shrink show-flex-shrink-number item-1"
+                  class="grid-item item-shrink show-flex-shrink-number item-1"
                 ></span>
-                <span class="item show-flex-shrink-number item-3"></span>
+                <span class="grid-item show-flex-shrink-number item-3"></span>
               </div>
             </div>
           </div>
@@ -720,10 +744,10 @@
             </h4>
             <div class="property" id="flex-basis-size">
               <div><span class="property-title">flex-basis</span>: size;</div>
-              <div class="show">
-                <span class="item show-flex-basis-size item-1"></span>
-                <span class="item show-flex-basis-size item-3"></span>
-                <span class="item show-flex-basis-size item-5"></span>
+              <div class="show-grid">
+                <span class="grid-item show-flex-basis-size item-1"></span>
+                <span class="grid-item show-flex-basis-size item-3"></span>
+                <span class="grid-item show-flex-basis-size item-5"></span>
               </div>
             </div>
           </div>
@@ -743,15 +767,15 @@
             </h4>
             <div class="property" id="align-self-auto">
               <div><span class="property-title">align-self</span>: auto;</div>
-              <div class="show">
-                <span class="item align-self-item item-1"></span>
-                <span class="item align-self-item item-2"></span>
+              <div class="show-grid">
+                <span class="grid-item align-self-item item-1"></span>
+                <span class="grid-item align-self-item item-2"></span>
                 <span
-                  class="item align-self-item show-align-self-auto item-3"
+                  class="grid-item align-self-item show-align-self-auto item-3"
                 ></span>
-                <span class="item align-self-item item-4"></span>
-                <span class="item align-self-item item-5"></span>
-                <span class="item align-self-item item-6"></span>
+                <span class="grid-item align-self-item item-4"></span>
+                <span class="grid-item align-self-item item-5"></span>
+                <span class="grid-item align-self-item item-6"></span>
               </div>
             </div>
 
@@ -759,29 +783,29 @@
               <div>
                 <span class="property-title">align-self</span>: flex-start;
               </div>
-              <div class="show">
-                <span class="item align-self-item item-1"></span>
-                <span class="item align-self-item item-2"></span>
+              <div class="show-grid">
+                <span class="grid-item align-self-item item-1"></span>
+                <span class="grid-item align-self-item item-2"></span>
                 <span
-                  class="item align-self-item show-align-self-flex-start item-3"
+                  class="grid-item align-self-item show-align-self-flex-start item-3"
                 ></span>
-                <span class="item align-self-item item-4"></span>
-                <span class="item align-self-item item-5"></span>
-                <span class="item align-self-item item-6"></span>
+                <span class="grid-item align-self-item item-4"></span>
+                <span class="grid-item align-self-item item-5"></span>
+                <span class="grid-item align-self-item item-6"></span>
               </div>
             </div>
 
             <div class="property" id="align-self-center">
               <div><span class="property-title">align-self</span>: center;</div>
-              <div class="show">
-                <span class="item align-self-item item-1"></span>
-                <span class="item align-self-item item-2"></span>
+              <div class="show-grid">
+                <span class="grid-item align-self-item item-1"></span>
+                <span class="grid-item align-self-item item-2"></span>
                 <span
-                  class="item align-self-item show-align-self-center item-3"
+                  class="grid-item align-self-item show-align-self-center item-3"
                 ></span>
-                <span class="item align-self-item item-4"></span>
-                <span class="item align-self-item item-5"></span>
-                <span class="item align-self-item item-6"></span>
+                <span class="grid-item align-self-item item-4"></span>
+                <span class="grid-item align-self-item item-5"></span>
+                <span class="grid-item align-self-item item-6"></span>
               </div>
             </div>
 
@@ -789,15 +813,15 @@
               <div>
                 <span class="property-title">align-self</span>: flex-end;
               </div>
-              <div class="show">
-                <span class="item align-self-item item-1"></span>
-                <span class="item align-self-item item-2"></span>
+              <div class="show-grid">
+                <span class="grid-item align-self-item item-1"></span>
+                <span class="grid-item align-self-item item-2"></span>
                 <span
-                  class="item align-self-item show-align-self-flex-end item-3"
+                  class="grid-item align-self-item show-align-self-flex-end item-3"
                 ></span>
-                <span class="item align-self-item item-4"></span>
-                <span class="item align-self-item item-5"></span>
-                <span class="item align-self-item item-6"></span>
+                <span class="grid-item align-self-item item-4"></span>
+                <span class="grid-item align-self-item item-5"></span>
+                <span class="grid-item align-self-item item-6"></span>
               </div>
             </div>
 
@@ -805,15 +829,15 @@
               <div>
                 <span class="property-title">align-self</span>: baseline;
               </div>
-              <div class="show">
-                <span class="item align-self-item item-1"></span>
-                <span class="item align-self-item item-2"></span>
+              <div class="show-grid">
+                <span class="grid-item align-self-item item-1"></span>
+                <span class="grid-item align-self-item item-2"></span>
                 <span
-                  class="item align-self-item show-align-self-baseline item-3"
+                  class="grid-item align-self-item show-align-self-baseline item-3"
                 ></span>
-                <span class="item align-self-item item-4"></span>
-                <span class="item align-self-item item-5"></span>
-                <span class="item align-self-item item-6"></span>
+                <span class="grid-item align-self-item item-4"></span>
+                <span class="grid-item align-self-item item-5"></span>
+                <span class="grid-item align-self-item item-6"></span>
               </div>
             </div>
 
@@ -821,15 +845,15 @@
               <div>
                 <span class="property-title">align-self</span>: stretch;
               </div>
-              <div class="show">
-                <span class="item align-self-item item-1"></span>
-                <span class="item align-self-item item-2"></span>
+              <div class="show-grid">
+                <span class="grid-item align-self-item item-1"></span>
+                <span class="grid-item align-self-item item-2"></span>
                 <span
-                  class="item align-self-item show-align-self-stretch item-3"
+                  class="grid-item align-self-item show-align-self-stretch item-3"
                 ></span>
-                <span class="item align-self-item item-4"></span>
-                <span class="item align-self-item item-5"></span>
-                <span class="item align-self-item item-6"></span>
+                <span class="grid-item align-self-item item-4"></span>
+                <span class="grid-item align-self-item item-5"></span>
+                <span class="grid-item align-self-item item-6"></span>
               </div>
             </div>
           </div>
@@ -845,13 +869,13 @@
             </h4>
             <div class="property" id="order-number">
               <div><span class="property-title">order</span>: number;</div>
-              <div class="show">
-                <span class="item show-order-number item-1"></span>
-                <span class="item show-order-number item-2"></span>
-                <span class="item show-order-number item-3"></span>
-                <span class="item show-order-number item-4"></span>
-                <span class="item show-order-number item-5"></span>
-                <span class="item show-order-number item-6"></span>
+              <div class="show-grid">
+                <span class="grid-item show-order-number item-1"></span>
+                <span class="grid-item show-order-number item-2"></span>
+                <span class="grid-item show-order-number item-3"></span>
+                <span class="grid-item show-order-number item-4"></span>
+                <span class="grid-item show-order-number item-5"></span>
+                <span class="grid-item show-order-number item-6"></span>
               </div>
             </div>
           </div>

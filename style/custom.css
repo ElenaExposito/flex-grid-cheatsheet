@@ -2,6 +2,7 @@
   --property-title: rgb(255, 177, 0);
   --border-box: black;
   --item-color: rgb(0, 122, 204);
+  --item-grid-color: rgb(255, 177, 0);
 }
 
 *,
@@ -80,7 +81,9 @@ h4 {
 .flex-basis,
 .flex,
 .align-self,
-.order {
+.order,
+.display-grid,
+.grid-template-columns {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -122,6 +125,15 @@ h4 {
   gap: 0.1rem;
 }
 
+.show-grid {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
+  border: 1px solid var(--border-box);
+  display: grid;
+  gap: 0.1rem;
+}
+
 .two-columns {
   flex-direction: column;
 }
@@ -141,6 +153,12 @@ h4 {
   width: 4px;
   height: 100%;
   background-color: var(--item-color);
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+  background-color: var(--item-grid-color);
 }
 
 .item-column {
@@ -195,8 +213,20 @@ h4 {
   display: inline-flex;
 }
 
+.show-display-inline-grid {
+  display: inline-grid;
+}
+
+.show-display-subgrid {
+  display: subgrid;
+}
+
 .show-flex-direction-row {
   flex-direction: row;
+}
+
+.show-grid-template-columns-none {
+  grid-template-columns: 11px 11px 11px;
 }
 
 .show-flex-direction-row-reverse {
