@@ -1,6 +1,6 @@
 import { Uri } from "vscode";
 
-export function getWebviewContent(
+export function getWebviewContentFlex(
   cspSource: string,
   scriptPath: Uri,
   stylePath: Uri,

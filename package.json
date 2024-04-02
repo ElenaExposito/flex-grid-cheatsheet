@@ -55,6 +55,10 @@
       {
         "view": "package-flexbox",
         "contents": "[Open Flexbox Cheatsheet](command:flex-grid-cheatsheet.openFlexboxView)"
+      },
+      {
+        "view": "package-gridbox",
+        "contents": "[Open Gridbox Cheatsheet](command:flex-grid-cheatsheet.openGridboxView)"
       }
     ]
   },
