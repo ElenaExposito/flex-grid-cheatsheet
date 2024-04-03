@@ -130,6 +130,12 @@ const texts = [
     id: "#grid-template-columns-rows-repeat",
     text: "grid-template-columns: repeat(3, 12px);\ngrid-template-rows: repeat(3, 12px);",
   },
+
+  // grid-template-areas-string
+  {
+    id: "grid-template-areas-string-1",
+    text: 'grid-template-areas: \n  "a a a"\n  "b c c"\n  "b c c";',
+  },
 ];
 
 (function () {
