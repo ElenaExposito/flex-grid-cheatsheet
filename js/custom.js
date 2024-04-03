@@ -133,9 +133,20 @@ const texts = [
 
   // grid-template-areas-string
   {
-    id: "grid-template-areas-string-1",
-    text: 'grid-template-areas: \n  "a a a"\n  "b c c"\n  "b c c";',
+    id: "#grid-template-areas-string-1",
+    text: 'grid-template-areas:\n"a a a"\n"b c c"\n"b c c";',
   },
+  {
+    id: "#grid-template-areas-string-2",
+    text: 'grid-template-areas:\n  "b b a"\n  "b b c"\n  "b b c";',
+  },
+  {
+    id: "#grid-template-areas-string-3",
+    text: 'grid-template-areas:\n  "a a ."\n  "a a ."\n  ". b c";',
+  },
+
+  // grid-area
+  { id: "#grid-area", text: "grid-area: a;" },
 ];
 
 (function () {

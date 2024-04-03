@@ -104,6 +104,7 @@ export function getWebviewContentGrid(
                 >grid-template</a
               >
             </h4>
+            
             <div class="property" id="grid-template-columns-rows-none">
               <div>
                 <span class="property-title">grid-template-columns</span>: none;
@@ -162,13 +163,11 @@ export function getWebviewContentGrid(
                 <span class="grid-item item-5"></span>
                 <span class="grid-item item-6"></span>
               </div>
-            </div>
+            </div>      
           </div>
         </div>
 
         <div class="properties">
-          <h3>Area Grid</h3>
-
           <div class="grid-template-areas">
             <h4>
               <a
@@ -195,51 +194,54 @@ export function getWebviewContentGrid(
               </div>
             </div>
 
-            <div class="property" id="justify-content-center">
+            <div class="property" id="grid-template-areas-string-2">
               <div>
-                <span class="property-title">justify-content</span>: center;
+                <span class="property-title">grid-template-areas</span>:
+                <br>
+                 "b b a"
+                 <br>
+                 "b b c"
+                 <br>
+                 "b b c";
               </div>
-              <div class="show-grid show-justify-content-center">
+              <div class="show-grid show-grid-template-areas-string-2">
                 <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
-            <div class="property" id="justify-content-flex-end">
+            <div class="property" id="grid-template-areas-string-3">
               <div>
-                <span class="property-title">justify-content</span>: flex-end;
+                <span class="property-title">grid-template-areas</span>:
+                <br>
+                 "a a ."
+                 <br>
+                 "a a ."
+                 <br>
+                 ". b c";
               </div>
-              <div class="show-grid show-justify-content-flex-end">
+              <div class="show-grid show-grid-template-areas-string-3">
                 <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-6"></span>
               </div>
             </div>
 
-            <div class="property" id="justify-content-space-between">
+            <h3>Item Properties</h3>
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area"
+                target="_blank"
+                rel="noopener"
+                >grid-area</a>
+            </h4>
+            <div class="property" id="grid-area">
               <div>
-                <span class="property-title">justify-content</span>:
-                space-between;
-              </div>
-              <div class="show-grid show-justify-content-space-between">
-                <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
+                <span class="property-title">grid-area</span>: <i>custom area name</i>;
               </div>
             </div>
-
-            <div class="property" id="justify-content-space-around">
-              <div>
-                <span class="property-title">justify-content</span>:
-                space-around;
-              </div>
-              <div class="show-grid show-justify-content-space-around">
-                <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
-                <span class="grid-item item-1"></span>
-              </div>
-            </div>
+            <h5>* Remember to use grid-area for the child elements to tell them where to place themselves based on the names defined in grid-template-areas.</h5>
           </div>
         </div>
 

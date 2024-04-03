@@ -51,6 +51,11 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+  font-style: italic;
+}
+
 .container-properties {
   display: flex;
   flex-direction: column;
@@ -257,15 +262,37 @@ h4 {
     "b c c";
 }
 
-.show-grid-template-areas-string-1 .grid-item.item-1 {
+.show-grid-template-areas-string-2 {
+  display: grid;
+  grid-template-areas:
+    "b b a"
+    "b b c"
+    "b b c";
+}
+
+.show-grid-template-areas-string-3 {
+  display: grid;
+  grid-template-areas:
+    "a a ."
+    "a a ."
+    ". b c";
+}
+
+.show-grid-template-areas-string-1 .grid-item.item-1,
+.show-grid-template-areas-string-2 .grid-item.item-1,
+.show-grid-template-areas-string-3 .grid-item.item-1 {
   grid-area: a;
 }
 
-.show-grid-template-areas-string-1 .grid-item.item-3 {
+.show-grid-template-areas-string-1 .grid-item.item-3,
+.show-grid-template-areas-string-2 .grid-item.item-3,
+.show-grid-template-areas-string-3 .grid-item.item-3 {
   grid-area: b;
 }
 
-.show-grid-template-areas-string-1 .grid-item.item-6 {
+.show-grid-template-areas-string-1 .grid-item.item-6,
+.show-grid-template-areas-string-2 .grid-item.item-6,
+.show-grid-template-areas-string-3 .grid-item.item-6 {
   grid-area: c;
 }
 
