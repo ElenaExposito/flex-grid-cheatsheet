@@ -19,11 +19,12 @@ function copyTextToClipBoard(text) {
 }
 
 const texts = [
-  //Display
+  // FLEX
+  // Display
   { id: "#display-flex", text: "display: flex;" },
   { id: "#display-inline-flex", text: "display: inline-flex;" },
 
-  //flex-direction
+  // flex-direction
   { id: "#flex-direction-row", text: "flex-direction: row;" },
   { id: "#flex-direction-row-reverse", text: "flex-direction: row-reverse;" },
   { id: "#flex-direction-column", text: "flex-direction: column;" },
@@ -32,12 +33,12 @@ const texts = [
     text: "flex-direction: column-reverse;",
   },
 
-  //flex-wrap
+  // flex-wrap
   { id: "#flex-wrap-nowrap", text: "flex-wrap: nowrap;" },
   { id: "#flex-wrap-wrap", text: "flex-wrap: wrap;" },
   { id: "#flex-wrap-wrap-reverse", text: "flex-wrap: wrap-reverse;" },
 
-  //flex-flow
+  // flex-flow
   { id: "#flex-flow-row-nowrap", text: "flex-flow: row nowrap;" },
   { id: "#flex-flow-row-wrap", text: "flex-flow: row wrap;" },
   {
@@ -56,7 +57,7 @@ const texts = [
     text: "flex-flow: column-reverse wrap;",
   },
 
-  //justify-content
+  // justify-content
   { id: "#justify-content-flex-start", text: "justify-content: flex-start;" },
   { id: "#justify-content-center", text: "justify-content: center;" },
   { id: "#justify-content-flex-end", text: "justify-content: flex-end;" },
@@ -69,14 +70,14 @@ const texts = [
     text: "justify-content: space-around;",
   },
 
-  //align-items
+  // align-items
   { id: "#align-items-flex-start", text: "align-items: flex-start;" },
   { id: "#align-items-center", text: "align-items: center;" },
   { id: "#align-items-flex-end", text: "align-items: flex-end;" },
   { id: "#align-items-baseline", text: "align-items: baseline;" },
   { id: "#align-items-stretch", text: "align-items: stretch;" },
 
-  //align-content
+  // align-content
   { id: "#align-content-flex-start", text: "align-content: flex-start;" },
   { id: "#align-content-center", text: "align-content: center;" },
   { id: "#align-content-flex-end", text: "align-content: flex-end;" },
@@ -84,18 +85,18 @@ const texts = [
   { id: "#align-content-space-between", text: "align-content: space-between;" },
   { id: "#align-content-space-around", text: "align-content: space-around;" },
 
-  //flex-grow
+  // flex-grow
   { id: "#flex-grow-number", text: "flex-grow: 0;" },
 
-  //flex-shrink
+  // flex-shrink
   { id: "#flex-shrink-number", text: "flex-shrink: 0;" },
 
-  //flex-basis
+  // flex-basis
   { id: "#flex-basis-auto", text: "flex-basis: auto;" },
   { id: "#flex-basis-content", text: "flex-basis: content;" },
   { id: "#flex-basis-size", text: "flex-basis: 100px;" },
 
-  //align-self
+  // align-self
   { id: "#align-self-auto", text: "align-self: auto;" },
   { id: "#align-self-flex-start", text: "align-self: flex-start;" },
   { id: "#align-self-center", text: "align-self: center;" },
@@ -103,8 +104,32 @@ const texts = [
   { id: "#align-self-baseline", text: "align-self: baseline;" },
   { id: "#align-self-stretch", text: "align-self: stretch;" },
 
-  //order
+  // order
   { id: "#order-number", text: "order: 0;" },
+
+  // GRID
+  // Display
+  { id: "#display-grid", text: "display: grid;" },
+  { id: "#display-inline-grid", text: "display: inline-grid;" },
+  { id: "#display-subgrid", text: "display: subgrid;" },
+
+  // grid-template-columns-rows-none
+  {
+    id: "#grid-template-columns-rows-none",
+    text: "grid-template-columns: none;\ngrid-template-rows: none;",
+  },
+
+  // grid-template-columns-rows-tracks
+  {
+    id: "#grid-template-columns-rows-tracks",
+    text: "grid-template-columns: 8px auto 8px;\ngrid-template-rows: 22% auto 22%;",
+  },
+
+  // grid-template-columns-rows-repeat
+  {
+    id: "#grid-template-columns-rows-repeat",
+    text: "grid-template-columns: repeat(3, 12px);\ngrid-template-rows: repeat(3, 12px);",
+  },
 ];
 
 (function () {

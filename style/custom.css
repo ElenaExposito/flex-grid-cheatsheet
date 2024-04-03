@@ -83,7 +83,7 @@ h4 {
 .align-self,
 .order,
 .display-grid,
-.grid-template-columns {
+.grid-template {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -126,8 +126,8 @@ h4 {
 }
 
 .show-grid {
-  width: 3rem;
-  height: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
   padding: 0.3rem;
   border: 1px solid var(--border-box);
   display: grid;
@@ -225,16 +225,27 @@ h4 {
   flex-direction: row;
 }
 
-.show-grid-template-columns-none {
-  grid-template-columns: 11px 11px 11px;
-}
-
 .show-flex-direction-row-reverse {
   flex-direction: row-reverse;
 }
 
 .show-flex-direction-column {
   flex-direction: column;
+}
+
+.show-grid-template-columns-rows-none {
+  grid-template-columns: 11px 11px 11px;
+  grid-template-rows: 11px 11px 11px;
+}
+
+.show-grid-template-columns-rows-tracks {
+  grid-template-columns: 8px auto 8px;
+  grid-template-rows: 8px auto 8px;
+}
+
+.show-grid-template-columns-rows-repeat {
+  grid-template-columns: repeat(3, 12px);
+  grid-template-rows: repeat(3, 12px);
 }
 
 .show-flex-direction-column-reverse {
