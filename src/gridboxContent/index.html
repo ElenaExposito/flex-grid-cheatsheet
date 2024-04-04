@@ -160,6 +160,7 @@
         </div>
 
         <div class="properties">
+          <h3>Area Grid</h3>
           <div class="grid-template-areas">
             <h4>
               <a
@@ -238,83 +239,76 @@
         </div>
 
         <div class="properties">
-          <h3>Secondary Axis</h3>
+          <h3>Implicit Grid</h3>
 
-          <div class="align-items">
+          <div class="grid-auto">
             <h4>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid"
                 target="_blank"
                 rel="noopener"
-                >align-items</a
+                >grid-auto</a
               >
             </h4>
-            <div class="property" id="align-items-flex-start">
+            <div class="property" id="grid-auto-columns">
               <div>
-                <span class="property-title">align-items</span>: flex-start;
+                <span class="property-title">grid-auto-columns</span>: 8px;
+                <br />
+                <span class="property-title">grid-auto-columns</span>: 22%;
+                <br />
+                <span class="property-title">grid-auto-columns</span>: auto;
               </div>
-              <div class="show-grid show-align-items-flex-start">
-                <span class="grid-item align item-1"></span>
-                <span class="grid-item align item-2"></span>
-                <span class="grid-item align item-3"></span>
-                <span class="grid-item align item-4"></span>
-                <span class="grid-item align item-5"></span>
-                <span class="grid-item align item-6"></span>
-              </div>
-            </div>
-
-            <div class="property" id="align-items-center">
-              <div>
-                <span class="property-title">align-items</span>: center;
-              </div>
-              <div class="show-grid show-align-items-center">
-                <span class="grid-item align item-1"></span>
-                <span class="grid-item align item-2"></span>
-                <span class="grid-item align item-3"></span>
-                <span class="grid-item align item-4"></span>
-                <span class="grid-item align item-5"></span>
-                <span class="grid-item align item-6"></span>
-              </div>
-            </div>
-
-            <div class="property" id="align-items-flex-end">
-              <div>
-                <span class="property-title">align-items</span>: flex-end;
-              </div>
-              <div class="show-grid show-align-items-flex-end">
-                <span class="grid-item align item-1"></span>
-                <span class="grid-item align item-2"></span>
-                <span class="grid-item align item-3"></span>
-                <span class="grid-item align item-4"></span>
-                <span class="grid-item align item-5"></span>
-                <span class="grid-item align item-6"></span>
-              </div>
-            </div>
-
-            <div class="property" id="align-items-baseline">
-              <div>
-                <span class="property-title">align-items</span>: baseline;
-              </div>
-              <div class="show-grid show-align-items-baseline">
-                <span class="grid-item align item-1"></span>
-                <span class="grid-item align item-2"></span>
-                <span class="grid-item align item-3"></span>
-                <span class="grid-item align item-4"></span>
-                <span class="grid-item align item-5"></span>
-                <span class="grid-item align item-6"></span>
-              </div>
-            </div>
-
-            <div class="property" id="align-items-stretch">
-              <div>
-                <span class="property-title">align-items</span>: stretch;
-              </div>
-              <div class="show-grid show-align-items-stretch">
+              <div class="show-grid show-grid-auto-columns">
                 <span class="grid-item item-1"></span>
-                <span class="grid-item item-2"></span>
                 <span class="grid-item item-3"></span>
-                <span class="grid-item item-4"></span>
-                <span class="grid-item item-5"></span>
+                <span class="grid-item item-6"></span>
+              </div>
+            </div>
+
+            <div class="property" id="grid-auto-rows">
+              <div>
+                <span class="property-title">grid-auto-rows</span>: 8px;
+                <br />
+                <span class="property-title">grid-auto-rows</span>: 22%;
+                <br />
+                <span class="property-title">grid-auto-rows</span>: auto;
+              </div>
+              <div class="show-grid show-grid-auto-rows">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-6"></span>
+              </div>
+            </div>
+
+            <div class="property" id="grid-auto-flow-row">
+              <div>
+                <span class="property-title">grid-auto-flow</span>: row;
+              </div>
+              <div class="show-grid show-grid-auto-flow-row">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-6"></span>
+              </div>
+            </div>
+
+            <div class="property" id="grid-auto-flow-column">
+              <div>
+                <span class="property-title">grid-auto-flow</span>: column;
+              </div>
+              <div class="show-grid show-grid-auto-flow-column">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-3"></span>
+                <span class="grid-item item-6"></span>
+              </div>
+            </div>
+
+            <div class="property" id="grid-auto-flow-dense">
+              <div>
+                <span class="property-title">grid-auto-flow</span>: dense;
+              </div>
+              <div class="show-grid show-grid-auto-flow-dense">
+                <span class="grid-item item-1"></span>
+                <span class="grid-item item-3"></span>
                 <span class="grid-item item-6"></span>
               </div>
             </div>
@@ -322,149 +316,63 @@
         </div>
 
         <div class="properties">
-          <h3>Multi-line Container Properties</h3>
+          <h3>Gutters (Gaps)</h3>
 
-          <div class="align-content">
+          <div class="grid-gaps">
             <h4>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content"
+                href="https://developer.mozilla.org/en-US/docs/Glossary/Gutters"
                 target="_blank"
                 rel="noopener"
-                >align-content</a
+                >Gutters</a
               >
             </h4>
-            <div class="property" id="align-content-flex-start">
+
+            <div class="property" id="grid-column-gap">
               <div>
-                <span class="property-title">align-content</span>: flex-start;
+                <span class="property-title">grid-column-gap</span>: 8px;
+                <br />
+                <span class="property-title">grid-column-gap</span>: 22%;
+                <br />
+                <span class="property-title">grid-column-gap</span>: 0;
               </div>
-              <div class="show-grid show-align-content-flex-start">
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                  <span class="grid-item align-content-item item-3"></span>
+
+                <div class="show-grid show-grid-column-gap">
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-6"></span>
                 </div>
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-5"></span>
-                  <span class="grid-item align-content-item item-6"></span>
-                </div>
-              </div>
             </div>
 
-            <div class="property" id="align-content-center">
+            <div class="property" id="grid-row-gap">
               <div>
-                <span class="property-title">align-content</span>: center;
+                <span class="property-title">grid-row-gap</span>: 8px;
+                <br />
+                <span class="property-title">grid-row-gap</span>: 22%;
+                <br />
+                <span class="property-title">grid-row-gap</span>: 0;
               </div>
-              <div class="show-grid show-align-content-center">
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                  <span class="grid-item align-content-item item-3"></span>
+
+                <div class="show-grid show-grid-row-gap">
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-6"></span>
                 </div>
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-5"></span>
-                  <span class="grid-item align-content-item item-6"></span>
-                </div>
-              </div>
             </div>
 
-            <div class="property" id="align-content-flex-end">
+            <div class="property" id="grid-gap">
               <div>
-                <span class="property-title">align-content</span>: flex-end;
+                <span class="property-title">grid-gap</span>: <i>row-gap</i> <i>column-gap</i>;
               </div>
-              <div class="show-grid show-align-content-flex-end">
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                </div>
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-5"></span>
-                  <span class="grid-item align-content-item item-6"></span>
-                </div>
-              </div>
-            </div>
 
-            <div class="property" id="align-content-stretch">
-              <div>
-                <span class="property-title">align-content</span>: stretch;
-              </div>
-              <div class="show-grid two-columns show-align-content-stretch">
-                <div class="column">
-                  <span class="item-column item-1"></span>
-                  <span class="item-column item-1"></span>
-                  <span class="item-column item-2"></span>
-                  <span class="item-column item-2"></span>
-                  <span class="item-column item-3"></span>
-                  <span class="item-column item-3"></span>
+                <div class="show-grid show-grid-gap">
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-6"></span>
                 </div>
-                <div class="column">
-                  <span class="item-column item-4"></span>
-                  <span class="item-column item-4"></span>
-                  <span class="item-column item-5"></span>
-                  <span class="item-column item-6"></span>
-                </div>
-              </div>
             </div>
-
-            <div class="property" id="align-content-space-between">
-              <div>
-                <span class="property-title">align-content</span>:
-                space-between;
-              </div>
-              <div class="show-grid show-align-content-space-between">
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                </div>
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-5"></span>
-                  <span class="grid-item align-content-item item-6"></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="property" id="align-content-space-around">
-              <div>
-                <span class="property-title">align-content</span>: space-around;
-              </div>
-              <div class="show-grid show-align-content-space-around">
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-1"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-2"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                  <span class="grid-item align-content-item item-3"></span>
-                </div>
-                <div class="column column-align-content">
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-4"></span>
-                  <span class="grid-item align-content-item item-5"></span>
-                  <span class="grid-item align-content-item item-6"></span>
-                </div>
-              </div>
-            </div>
+            
+          
           </div>
         </div>
       </div>

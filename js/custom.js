@@ -147,6 +147,18 @@ const texts = [
 
   // grid-area
   { id: "#grid-area", text: "grid-area: a;" },
+
+  // grid-auto
+  { id: "#grid-auto-columns", text: "grid-auto-columns: 8px;" },
+  { id: "#grid-auto-rows", text: "grid-auto-rows: 8px;" },
+  { id: "#grid-auto-flow-row", text: "grid-auto-flow: row;" },
+  { id: "#grid-auto-flow-column", text: "grid-auto-flow: column;" },
+  { id: "#grid-auto-flow-dense", text: "grid-auto-flow: dense;" },
+
+  // grid-gaps
+  { id: "#grid-column-gap", text: "grid-column-gap: 8px;" },
+  { id: "#grid-row-gap", text: "grid-row-gap: 8px;" },
+  { id: "#grid-gap", text: "grid-gap: 10px 2px;" },
 ];
 
 (function () {

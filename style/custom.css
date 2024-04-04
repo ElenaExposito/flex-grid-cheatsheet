@@ -89,7 +89,9 @@ h5 {
 .order,
 .display-grid,
 .grid-template,
-.grid-template-areas {
+.grid-template-areas,
+.grid-auto,
+.grid-gaps {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -240,8 +242,8 @@ h5 {
 }
 
 .show-grid-template-columns-rows-none {
-  grid-template-columns: 11px 11px 11px;
-  grid-template-rows: 11px 11px 11px;
+  grid-template-columns: none;
+  grid-template-rows: none;
 }
 
 .show-grid-template-columns-rows-tracks {
@@ -294,6 +296,38 @@ h5 {
 .show-grid-template-areas-string-2 .grid-item.item-6,
 .show-grid-template-areas-string-3 .grid-item.item-6 {
   grid-area: c;
+}
+
+.show-grid-auto-columns {
+  grid-auto-columns: 8px;
+}
+
+.show-grid-auto-rows {
+  grid-auto-rows: 8px;
+}
+
+.show-grid-auto-flow-row {
+  grid-auto-flow: row;
+}
+
+.show-grid-auto-flow-column {
+  grid-auto-flow: column;
+}
+
+.show-grid-auto-flow-dense {
+  grid-auto-flow: dense;
+}
+
+.show-grid-column-gap {
+  grid-column-gap: 8px;
+}
+
+.show-grid-row-gap {
+  grid-row-gap: 8px;
+}
+
+.show-grid-gap {
+  grid-gap: 10px 2px;
 }
 
 .show-flex-direction-column-reverse {
