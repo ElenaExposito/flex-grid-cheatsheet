@@ -159,6 +159,15 @@ const texts = [
   { id: "#grid-column-gap", text: "grid-column-gap: 8px;" },
   { id: "#grid-row-gap", text: "grid-row-gap: 8px;" },
   { id: "#grid-gap", text: "grid-gap: 10px 2px;" },
+
+  // grid-column
+  {
+    id: "#grid-column-start",
+    text: "grid-column-start: 1;\n grid-column-end: 3;",
+  },
+  { id: "#grid-column-start-span", text: "grid-column-start: span 3;" },
+  { id: "#grid-column-container", text: "grid-column: 2 / 3;" },
+  { id: "#grid-column-container-span", text: "grid-column: 2 / span 2;" },
 ];
 
 (function () {

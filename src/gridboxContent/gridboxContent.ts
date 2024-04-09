@@ -389,24 +389,84 @@ export function getWebviewContentGrid(
         <h2>Item Properties</h2>
 
         <div class="properties">
-          <h3>Flexibility</h3>
+          <h3>Line-based placement</h3>
 
-          <div class="flex-grow">
+          <div class="grid-column">
             <h4>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column"
                 target="_blank"
                 rel="noopener"
-                >flex-grow</a
+                >grid-column</a
               >
             </h4>
-            <div class="property" id="flex-grow-number">
-              <div><span class="property-title">flex-grow</span>: number;</div>
-              <div class="show-grid">
-                <span class="grid-item show-flex-grow-number item-1"></span>
-                <span class="grid-item show-flex-grow-number item-3"></span>
-                <span class="grid-item show-flex-grow-number item-5"></span>
+
+            <div class="property" id="grid-column-start">
+              <div>
+                <span class="property-title">grid-column-start</span>: line;
+                <br />
+                <span class="property-title">grid-column-end</span>: line;
               </div>
+
+                <div class="show-grid grid-container-auto">
+                  <span class="grid-item show-grid-column-start item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="grid-column-start-span">
+              <div>
+                <span class="property-title">grid-column-start</span>: span line;
+              </div>
+
+                <div class="show-grid grid-container-auto">
+                  <span class="grid-item show-grid-column-start-span item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="grid-column-container">
+              <div>
+                <span class="property-title">grid-column</span>: column-start / column-end;
+              </div>
+
+                <div class="show-grid grid-container-auto">
+                  <span class="grid-item show-grid-column-container item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="grid-column-container-span">
+              <div>
+                <span class="property-title">grid-column</span>: span column-start / span column-end;
+              </div>
+
+                <div class="show-grid grid-container-auto">
+                  <span class="grid-item show-grid-column-container-span item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
             </div>
           </div>
 

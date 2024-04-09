@@ -91,7 +91,8 @@ h5 {
 .grid-template,
 .grid-template-areas,
 .grid-auto,
-.grid-gaps {
+.grid-gaps,
+.grid-column {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -328,6 +329,28 @@ h5 {
 
 .show-grid-gap {
   grid-gap: 10px 2px;
+}
+
+.grid-container-auto {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.show-grid-column-start {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.show-grid-column-start-span {
+  grid-column-start: span 3;
+}
+
+.show-grid-column-container {
+  grid-column: 2 / 3;
+}
+
+.show-grid-column-container-span {
+  grid-column: 2 / span 2;
 }
 
 .show-flex-direction-column-reverse {
