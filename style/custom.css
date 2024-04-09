@@ -374,9 +374,42 @@ h5 {
   align-items: stretch;
 }
 
+.show-justify-content-start {
+  justify-content: start;
+}
+
+.show-justify-content-end {
+  justify-content: end;
+}
+
+.show-justify-content-center {
+  justify-content: center;
+}
+
+.show-justify-content-stretch {
+  justify-content: stretch;
+}
+
+.show-justify-content-space-around {
+  justify-content: space-around;
+}
+
+.show-justify-content-space-between {
+  justify-content: space-between;
+}
+
+.show-justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
 .grid-container-auto {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
+}
+
+.grid-justify-content {
+  grid-template-columns: 7px 7px 7px;
+  grid-template-rows: 7px 7px 7px;
 }
 
 .show-grid-column-start {

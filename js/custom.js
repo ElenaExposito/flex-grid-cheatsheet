@@ -172,6 +172,24 @@ const texts = [
   { id: "#show-align-items-center", text: "align-items: center; " },
   { id: "#show-align-items-stretch", text: "align-items: stretch; " },
 
+  // justify-content
+  { id: "#show-justify-content-start", text: "justify-content: start; " },
+  { id: "#show-justify-content-end", text: "justify-content: end; " },
+  { id: "#show-justify-content-center", text: "justify-content: center; " },
+  { id: "#show-justify-content-stretch", text: "justify-content: stretch; " },
+  {
+    id: "#show-justify-content-space-around",
+    text: "justify-content: space-around; ",
+  },
+  {
+    id: "#show-justify-content-space-between",
+    text: "justify-content: space-between; ",
+  },
+  {
+    id: "#show-justify-content-space-evenly",
+    text: "justify-content: space-evenly; ",
+  },
+
   // grid-column
   {
     id: "#grid-column-start",
