@@ -166,6 +166,12 @@ const texts = [
   { id: "#show-justify-items-center", text: "justify-items: center; " },
   { id: "#show-justify-items-stretch", text: "justify-items: stretch; " },
 
+  // align-items
+  { id: "#show-align-items-start", text: "align-items: start; " },
+  { id: "#show-align-items-end", text: "align-items: end; " },
+  { id: "#show-align-items-center", text: "align-items: center; " },
+  { id: "#show-align-items-stretch", text: "align-items: stretch; " },
+
   // grid-column
   {
     id: "#grid-column-start",

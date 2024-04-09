@@ -173,8 +173,12 @@ h5 {
   background-color: var(--item-grid-color);
 }
 
-.small-item {
+.small-item-width {
   max-width: 0.3rem;
+}
+
+.small-item-height {
+  max-height: 0.2rem;
 }
 
 .item-column {
@@ -352,6 +356,22 @@ h5 {
 
 .show-justify-items-stretch {
   justify-items: stretch;
+}
+
+.show-align-items-start {
+  align-items: start;
+}
+
+.show-align-items-end {
+  align-items: end;
+}
+
+.show-align-items-center {
+  align-items: center;
+}
+
+.show-align-items-stretch {
+  align-items: stretch;
 }
 
 .grid-container-auto {

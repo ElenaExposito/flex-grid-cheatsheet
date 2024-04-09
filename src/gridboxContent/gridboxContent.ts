@@ -178,6 +178,7 @@ export function getWebviewContentGrid(
                 >grid-template-areas</a
               >
             </h4>
+
             <div class="property" id="grid-template-areas-string-1">
               <div>
                 <span class="property-title">grid-template-areas</span>:
@@ -237,6 +238,7 @@ export function getWebviewContentGrid(
                 rel="noopener"
                 >grid-area</a>
             </h4>
+
             <div class="property" id="grid-area">
               <div>
                 <span class="property-title">grid-area</span>: <i>custom area name</i>;
@@ -258,6 +260,7 @@ export function getWebviewContentGrid(
                 >grid-auto</a
               >
             </h4>
+
             <div class="property" id="grid-auto-columns">
               <div>
                 <span class="property-title">grid-auto-columns</span>: 8px;
@@ -403,15 +406,15 @@ export function getWebviewContentGrid(
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-start">
-                  <span class="grid-item small-item item-1"></span>
-                  <span class="grid-item small-item item-2"></span>
-                  <span class="grid-item small-item item-2"></span>
-                  <span class="grid-item small-item item-3"></span>
-                  <span class="grid-item small-item item-3"></span>
-                  <span class="grid-item small-item item-4"></span>
-                  <span class="grid-item small-item item-4"></span>
-                  <span class="grid-item small-item item-5"></span>
-                  <span class="grid-item small-item item-6"></span>
+                  <span class="grid-item small-item-width item-1"></span>
+                  <span class="grid-item small-item-width item-2"></span>
+                  <span class="grid-item small-item-width item-2"></span>
+                  <span class="grid-item small-item-width item-3"></span>
+                  <span class="grid-item small-item-width item-3"></span>
+                  <span class="grid-item small-item-width item-4"></span>
+                  <span class="grid-item small-item-width item-4"></span>
+                  <span class="grid-item small-item-width item-5"></span>
+                  <span class="grid-item small-item-width item-6"></span>
                 </div>
             </div>
 
@@ -421,15 +424,15 @@ export function getWebviewContentGrid(
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-end">
-                  <span class="grid-item small-item item-1"></span>
-                  <span class="grid-item small-item item-2"></span>
-                  <span class="grid-item small-item item-2"></span>
-                  <span class="grid-item small-item item-3"></span>
-                  <span class="grid-item small-item item-3"></span>
-                  <span class="grid-item small-item item-4"></span>
-                  <span class="grid-item small-item item-4"></span>
-                  <span class="grid-item small-item item-5"></span>
-                  <span class="grid-item small-item item-6"></span>
+                  <span class="grid-item small-item-width item-1"></span>
+                  <span class="grid-item small-item-width item-2"></span>
+                  <span class="grid-item small-item-width item-2"></span>
+                  <span class="grid-item small-item-width item-3"></span>
+                  <span class="grid-item small-item-width item-3"></span>
+                  <span class="grid-item small-item-width item-4"></span>
+                  <span class="grid-item small-item-width item-4"></span>
+                  <span class="grid-item small-item-width item-5"></span>
+                  <span class="grid-item small-item-width item-6"></span>
                 </div>
             </div>
 
@@ -439,15 +442,15 @@ export function getWebviewContentGrid(
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-center">
-                  <span class="grid-item small-item item-1"></span>
-                  <span class="grid-item small-item item-2"></span>
-                  <span class="grid-item small-item item-2"></span>
-                  <span class="grid-item small-item item-3"></span>
-                  <span class="grid-item small-item item-3"></span>
-                  <span class="grid-item small-item item-4"></span>
-                  <span class="grid-item small-item item-4"></span>
-                  <span class="grid-item small-item item-5"></span>
-                  <span class="grid-item small-item item-6"></span>
+                  <span class="grid-item small-item-width item-1"></span>
+                  <span class="grid-item small-item-width item-2"></span>
+                  <span class="grid-item small-item-width item-2"></span>
+                  <span class="grid-item small-item-width item-3"></span>
+                  <span class="grid-item small-item-width item-3"></span>
+                  <span class="grid-item small-item-width item-4"></span>
+                  <span class="grid-item small-item-width item-4"></span>
+                  <span class="grid-item small-item-width item-5"></span>
+                  <span class="grid-item small-item-width item-6"></span>
                 </div>
             </div>
 
@@ -457,6 +460,94 @@ export function getWebviewContentGrid(
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-stretch">
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="properties">
+          <h3>Secondary Axis</h3>
+
+          <div class="justify-items">
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items"
+                target="_blank"
+                rel="noopener"
+                >align-items</a
+              >
+            </h4>
+
+            <div class="property" id="align-items-start">
+              <div>
+                <span class="property-title">align-items</span>: start;
+              </div>
+
+                <div class="show-grid grid-container-auto show-align-items-start">
+                  <span class="grid-item small-item-height item-1"></span>
+                  <span class="grid-item small-item-height item-2"></span>
+                  <span class="grid-item small-item-height item-2"></span>
+                  <span class="grid-item small-item-height item-3"></span>
+                  <span class="grid-item small-item-height item-3"></span>
+                  <span class="grid-item small-item-height item-4"></span>
+                  <span class="grid-item small-item-height item-4"></span>
+                  <span class="grid-item small-item-height item-5"></span>
+                  <span class="grid-item small-item-height item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="align-items-end">
+              <div>
+                <span class="property-title">align-items</span>: end;
+              </div>
+
+                <div class="show-grid grid-container-auto show-align-items-end">
+                  <span class="grid-item small-item-height item-1"></span>
+                  <span class="grid-item small-item-height item-2"></span>
+                  <span class="grid-item small-item-height item-2"></span>
+                  <span class="grid-item small-item-height item-3"></span>
+                  <span class="grid-item small-item-height item-3"></span>
+                  <span class="grid-item small-item-height item-4"></span>
+                  <span class="grid-item small-item-height item-4"></span>
+                  <span class="grid-item small-item-height item-5"></span>
+                  <span class="grid-item small-item-height item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="align-items-center">
+              <div>
+                <span class="property-title">align-items</span>: center;
+              </div>
+
+                <div class="show-grid grid-container-auto show-align-items-center">
+                  <span class="grid-item small-item-height item-1"></span>
+                  <span class="grid-item small-item-height item-2"></span>
+                  <span class="grid-item small-item-height item-2"></span>
+                  <span class="grid-item small-item-height item-3"></span>
+                  <span class="grid-item small-item-height item-3"></span>
+                  <span class="grid-item small-item-height item-4"></span>
+                  <span class="grid-item small-item-height item-4"></span>
+                  <span class="grid-item small-item-height item-5"></span>
+                  <span class="grid-item small-item-height item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="align-items-stretch">
+              <div>
+                <span class="property-title">align-items</span>: stretch;
+              </div>
+
+                <div class="show-grid grid-container-auto show-align-items-stretch">
                   <span class="grid-item item-1"></span>
                   <span class="grid-item item-2"></span>
                   <span class="grid-item item-2"></span>
