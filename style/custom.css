@@ -93,7 +93,8 @@ h5 {
 .grid-auto,
 .grid-gaps,
 .grid-column,
-.grid-row {
+.grid-row,
+.grid-column-row {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -369,6 +370,16 @@ h5 {
 
 .show-grid-row-container-span {
   grid-row: 1 / span 3;
+}
+
+.show-grid-column-row {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+}
+
+.show-grid-row-column {
+  grid-row: 2 / span 2;
+  grid-column: 2 / span 2;
 }
 
 .show-flex-direction-column-reverse {

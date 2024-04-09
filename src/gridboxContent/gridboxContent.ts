@@ -549,44 +549,48 @@ export function getWebviewContentGrid(
             </div>
           </div>
 
-          <div class="flex-shrink">
+          <div class="grid-column-row">
             <h4>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column#constituent_properties"
                 target="_blank"
                 rel="noopener"
-                >flex-shrink</a
+                >grid-row + grid-column</a
               >
             </h4>
-            <div class="property" id="flex-shrink-number">
-              <div>
-                <span class="property-title">flex-shrink</span>: number;
-              </div>
-              <div class="show">
-                <span
-                  class="grid-item item-shrink show-flex-shrink-number item-1"
-                ></span>
-                <span class="grid-item show-flex-shrink-number item-3"></span>
-              </div>
-            </div>
-          </div>
 
-          <div class="flex-basis">
-            <h4>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis"
-                target="_blank"
-                rel="noopener"
-                >flex-basis</a
-              >
-            </h4>
-            <div class="property" id="flex-basis-size">
-              <div><span class="property-title">flex-basis</span>: size;</div>
-              <div class="show-grid">
-                <span class="grid-item show-flex-basis-size item-1"></span>
-                <span class="grid-item show-flex-basis-size item-3"></span>
-                <span class="grid-item show-flex-basis-size item-5"></span>
+            <div class="property" id="grid-column-row">
+              <div>
+                <span class="property-title">grid-row</span>: 1 / span 2;
+                <br />
+                <span class="property-title">grid-column</span>: 1 / span 2;
               </div>
+
+                <div class="show-grid grid-container-auto">
+                  <span class="grid-item show-grid-column-row item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="grid-row-column">
+              <div>
+                <span class="property-title">grid-row</span>: 2 / span 2;
+                <br />
+                <span class="property-title">grid-column</span>: 2 / span 2;
+              </div>
+
+                <div class="show-grid grid-container-auto">
+                  <span class="grid-item show-grid-row-column item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
             </div>
           </div>
         </div>

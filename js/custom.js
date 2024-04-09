@@ -177,6 +177,16 @@ const texts = [
   { id: "#grid-row-start-span", text: "grid-row-start: span 3;" },
   { id: "#grid-row-container", text: "grid-row: 1 / 3;" },
   { id: "#grid-row-container-span", text: "grid-row: 1 / span 3;" },
+
+  // Combining grid-column and grid-row
+  {
+    id: "#grid-column-row",
+    text: "grid-row: 1 / span 2;\n grid-column: 1 / span 2;",
+  },
+  {
+    id: "#rid-row-column",
+    text: "grid-row: 2 / span 2;\n grid-column: 2 / span 2;",
+  },
 ];
 
 (function () {
