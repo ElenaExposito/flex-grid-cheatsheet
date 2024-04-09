@@ -383,6 +383,94 @@ export function getWebviewContentGrid(
           
           </div>
         </div>
+
+        <div class="properties">
+          <h3>Primary Axis</h3>
+
+          <div class="justify-items">
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items"
+                target="_blank"
+                rel="noopener"
+                >justify-items</a
+              >
+            </h4>
+
+            <div class="property" id="justify-items-start">
+              <div>
+                <span class="property-title">justify-items</span>: start;
+              </div>
+
+                <div class="show-grid grid-container-auto show-justify-items-start">
+                  <span class="grid-item small-item item-1"></span>
+                  <span class="grid-item small-item item-2"></span>
+                  <span class="grid-item small-item item-2"></span>
+                  <span class="grid-item small-item item-3"></span>
+                  <span class="grid-item small-item item-3"></span>
+                  <span class="grid-item small-item item-4"></span>
+                  <span class="grid-item small-item item-4"></span>
+                  <span class="grid-item small-item item-5"></span>
+                  <span class="grid-item small-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="justify-items-end">
+              <div>
+                <span class="property-title">justify-items</span>: end;
+              </div>
+
+                <div class="show-grid grid-container-auto show-justify-items-end">
+                  <span class="grid-item small-item item-1"></span>
+                  <span class="grid-item small-item item-2"></span>
+                  <span class="grid-item small-item item-2"></span>
+                  <span class="grid-item small-item item-3"></span>
+                  <span class="grid-item small-item item-3"></span>
+                  <span class="grid-item small-item item-4"></span>
+                  <span class="grid-item small-item item-4"></span>
+                  <span class="grid-item small-item item-5"></span>
+                  <span class="grid-item small-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="justify-items-center">
+              <div>
+                <span class="property-title">justify-items</span>: center;
+              </div>
+
+                <div class="show-grid grid-container-auto show-justify-items-center">
+                  <span class="grid-item small-item item-1"></span>
+                  <span class="grid-item small-item item-2"></span>
+                  <span class="grid-item small-item item-2"></span>
+                  <span class="grid-item small-item item-3"></span>
+                  <span class="grid-item small-item item-3"></span>
+                  <span class="grid-item small-item item-4"></span>
+                  <span class="grid-item small-item item-4"></span>
+                  <span class="grid-item small-item item-5"></span>
+                  <span class="grid-item small-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="justify-items-stretch">
+              <div>
+                <span class="property-title">justify-items</span>: stretch;
+              </div>
+
+                <div class="show-grid grid-container-auto show-justify-items-stretch">
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+          </div>
+        </div>
       </div>
 
       <div class="container-properties">

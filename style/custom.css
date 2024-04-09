@@ -94,7 +94,8 @@ h5 {
 .grid-gaps,
 .grid-column,
 .grid-row,
-.grid-column-row {
+.grid-column-row,
+.justify-items {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -170,6 +171,10 @@ h5 {
   width: 100%;
   height: 100%;
   background-color: var(--item-grid-color);
+}
+
+.small-item {
+  max-width: 0.3rem;
 }
 
 .item-column {
@@ -331,6 +336,22 @@ h5 {
 
 .show-grid-gap {
   grid-gap: 10px 2px;
+}
+
+.show-justify-items-start {
+  justify-items: start;
+}
+
+.show-justify-items-end {
+  justify-items: end;
+}
+
+.show-justify-items-center {
+  justify-items: center;
+}
+
+.show-justify-items-stretch {
+  justify-items: stretch;
 }
 
 .grid-container-auto {

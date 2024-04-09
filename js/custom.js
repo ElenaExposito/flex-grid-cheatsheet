@@ -160,6 +160,12 @@ const texts = [
   { id: "#grid-row-gap", text: "grid-row-gap: 8px;" },
   { id: "#grid-gap", text: "grid-gap: 10px 2px;" },
 
+  // justify-items
+  { id: "#show-justify-items-start", text: "justify-items: start; " },
+  { id: "#show-justify-items-end", text: "justify-items: end; " },
+  { id: "#show-justify-items-center", text: "justify-items: center; " },
+  { id: "#show-justify-items-stretch", text: "justify-items: stretch; " },
+
   // grid-column
   {
     id: "#grid-column-start",
