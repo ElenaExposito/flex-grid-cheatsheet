@@ -168,6 +168,15 @@ const texts = [
   { id: "#grid-column-start-span", text: "grid-column-start: span 3;" },
   { id: "#grid-column-container", text: "grid-column: 2 / 3;" },
   { id: "#grid-column-container-span", text: "grid-column: 2 / span 2;" },
+
+  // grid-row
+  {
+    id: "#grid-row-start",
+    text: "grid-row-start: 1;\n grid-row-end: 3;",
+  },
+  { id: "#grid-row-start-span", text: "grid-row-start: span 3;" },
+  { id: "#grid-row-container", text: "grid-row: 1 / 3;" },
+  { id: "#grid-row-container-span", text: "grid-row: 1 / span 3;" },
 ];
 
 (function () {

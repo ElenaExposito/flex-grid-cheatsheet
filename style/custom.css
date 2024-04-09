@@ -92,7 +92,8 @@ h5 {
 .grid-template-areas,
 .grid-auto,
 .grid-gaps,
-.grid-column {
+.grid-column,
+.grid-row {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -351,6 +352,23 @@ h5 {
 
 .show-grid-column-container-span {
   grid-column: 2 / span 2;
+}
+
+.show-grid-row-start {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.show-grid-row-start-span {
+  grid-row-start: span 3;
+}
+
+.show-grid-row-container {
+  grid-row: 1 / 3;
+}
+
+.show-grid-row-container-span {
+  grid-row: 1 / span 3;
 }
 
 .show-flex-direction-column-reverse {
