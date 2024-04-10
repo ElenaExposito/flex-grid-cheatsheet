@@ -138,7 +138,8 @@ h5 {
   gap: 0.1rem;
 }
 
-.show-grid {
+.show-grid,
+.show-flex {
   min-width: 3rem;
   min-height: 3rem;
   padding: 0.3rem;
@@ -164,7 +165,7 @@ h5 {
 
 .item {
   width: 4px;
-  height: 100%;
+  height: auto;
   background-color: var(--item-color);
 }
 
@@ -373,6 +374,11 @@ h5 {
 
 .show-align-items-stretch {
   align-items: stretch;
+}
+
+.show-justify-content-flex-start {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .show-justify-content-start {
@@ -595,6 +601,24 @@ h5 {
 
 .show-align-items-stretch {
   align-items: stretch;
+}
+
+.show-flex-align-content-flex-start {
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.show-flex-align-content-center {
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.show-flex-align-content-flex-end {
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
 }
 
 .show-align-content-flex-start {
