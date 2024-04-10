@@ -235,6 +235,12 @@ const texts = [
     id: "#rid-row-column",
     text: "grid-row: 2 / span 2;\n grid-column: 2 / span 2;",
   },
+
+  // justify-self
+  { id: "#show-justify-self-start", text: "justify-self: start; " },
+  { id: "#show-justify-self-end", text: "justify-self: end; " },
+  { id: "#show-justify-self-center", text: "justify-self: center; " },
+  { id: "#show-justify-self-stretch", text: "justify-self: stretch; " },
 ];
 
 (function () {
