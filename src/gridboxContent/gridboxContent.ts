@@ -400,7 +400,7 @@ export function getWebviewContentGrid(
               >
             </h4>
 
-            <div class="property" id="justify-items-start">
+            <div class="property" id="show-justify-items-start">
               <div>
                 <span class="property-title">justify-items</span>: start;
               </div>
@@ -418,7 +418,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="justify-items-end">
+            <div class="property" id="show-justify-items-end">
               <div>
                 <span class="property-title">justify-items</span>: end;
               </div>
@@ -436,7 +436,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="justify-items-center">
+            <div class="property" id="show-justify-items-center">
               <div>
                 <span class="property-title">justify-items</span>: center;
               </div>
@@ -454,7 +454,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="justify-items-stretch">
+            <div class="property" id="show-justify-items-stretch">
               <div>
                 <span class="property-title">justify-items</span>: stretch;
               </div>
@@ -488,7 +488,7 @@ export function getWebviewContentGrid(
               >
             </h4>
 
-            <div class="property" id="align-items-start">
+            <div class="property" id="show-align-items-start">
               <div>
                 <span class="property-title">align-items</span>: start;
               </div>
@@ -506,7 +506,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="align-items-end">
+            <div class="property" id="show-align-items-end">
               <div>
                 <span class="property-title">align-items</span>: end;
               </div>
@@ -524,7 +524,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="align-items-center">
+            <div class="property" id="show-align-items-center">
               <div>
                 <span class="property-title">align-items</span>: center;
               </div>
@@ -542,7 +542,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="align-items-stretch">
+            <div class="property" id="show-align-items-stretch">
               <div>
                 <span class="property-title">align-items</span>: stretch;
               </div>
@@ -1065,7 +1065,7 @@ export function getWebviewContentGrid(
               >
             </h4>
 
-            <div class="property" id="justify-self-start">
+            <div class="property" id="show-justify-self-start">
               <div>
                 <span class="property-title">justify-self</span>: start;
               </div>
@@ -1083,7 +1083,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="justify-self-end">
+            <div class="property" id="show-justify-self-end">
               <div>
                 <span class="property-title">justify-self</span>: end;
               </div>
@@ -1101,7 +1101,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="justify-self-center">
+            <div class="property" id="show-justify-self-center">
               <div>
                 <span class="property-title">justify-self</span>: center;
               </div>
@@ -1119,7 +1119,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="justify-self-stretch">
+            <div class="property" id="show-justify-self-stretch">
               <div>
                 <span class="property-title">justify-self</span>: stretch;
               </div>
@@ -1152,7 +1152,7 @@ export function getWebviewContentGrid(
               >
             </h4>
 
-            <div class="property" id="align-self-start">
+            <div class="property" id="show-align-self-start">
               <div>
                 <span class="property-title">align-self</span>: start;
               </div>
@@ -1170,7 +1170,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="align-self-end">
+            <div class="property" id="show-align-self-end">
               <div>
                 <span class="property-title">align-self</span>: end;
               </div>
@@ -1188,7 +1188,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="align-self-center">
+            <div class="property" id="show-align-self-center">
               <div>
                 <span class="property-title">align-self</span>: center;
               </div>
@@ -1206,7 +1206,7 @@ export function getWebviewContentGrid(
                 </div>
             </div>
 
-            <div class="property" id="align-self-stretch">
+            <div class="property" id="show-align-self-stretch">
               <div>
                 <span class="property-title">align-self</span>: stretch;
               </div>
