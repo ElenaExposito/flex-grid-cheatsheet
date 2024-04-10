@@ -236,7 +236,7 @@ const texts = [
     text: "grid-row: 1 / span 2;\n grid-column: 1 / span 2;",
   },
   {
-    id: "#rid-row-column",
+    id: "#grid-row-column",
     text: "grid-row: 2 / span 2;\n grid-column: 2 / span 2;",
   },
 
