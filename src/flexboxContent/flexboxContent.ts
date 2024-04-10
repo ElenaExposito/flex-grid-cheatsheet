@@ -436,6 +436,18 @@ export function getWebviewContentFlex(
                 <span class="item item-1"></span>
               </div>
             </div>
+
+            <div class="property" id="justify-content-space-evenly">
+              <div>
+                <span class="property-title">justify-content</span>:
+                space-evenly;
+              </div>
+              <div class="show show-justify-content-space-evenly">
+                <span class="item item-1"></span>
+                <span class="item item-1"></span>
+                <span class="item item-1"></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -871,6 +883,7 @@ export function getWebviewContentFlex(
     <script src="${scriptPath}/custom.js"></script>
   </body>
 </html>
+
 
 
   `;

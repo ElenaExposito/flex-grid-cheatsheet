@@ -69,6 +69,10 @@ const texts = [
     id: "#justify-content-space-around",
     text: "justify-content: space-around;",
   },
+  {
+    id: "#justify-content-space-evenly",
+    text: "justify-content: space-evenly;",
+  },
 
   // align-items
   { id: "#align-items-flex-start", text: "align-items: flex-start;" },
