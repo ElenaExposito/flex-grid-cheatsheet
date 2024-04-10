@@ -190,6 +190,24 @@ const texts = [
     text: "justify-content: space-evenly; ",
   },
 
+  // align-content
+  { id: "#show-align-content-start", text: "align-content: start; " },
+  { id: "#show-align-content-end", text: "align-content: end; " },
+  { id: "#show-align-content-center", text: "align-content: center; " },
+  { id: "#show-align-content-stretch", text: "align-content: stretch; " },
+  {
+    id: "#show-align-content-space-around",
+    text: "align-content: space-around; ",
+  },
+  {
+    id: "#show-align-content-space-between",
+    text: "align-content: space-between; ",
+  },
+  {
+    id: "#show-align-content-space-evenly",
+    text: "align-content: space-evenly; ",
+  },
+
   // grid-column
   {
     id: "#grid-column-start",
