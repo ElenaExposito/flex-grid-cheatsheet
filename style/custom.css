@@ -510,6 +510,25 @@ h5 {
   justify-self: stretch;
 }
 
+.show-align-self-start {
+  align-self: start;
+  height: 0.5rem;
+}
+
+.show-align-self-end {
+  align-self: end;
+  height: 0.5rem;
+}
+
+.show-align-self-center {
+  align-self: center;
+  height: 0.5rem;
+}
+
+.show-align-self-stretch {
+  align-self: stretch;
+}
+
 .show-flex-direction-column-reverse {
   flex-direction: column-reverse;
 }

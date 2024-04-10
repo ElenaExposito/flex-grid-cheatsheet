@@ -241,6 +241,12 @@ const texts = [
   { id: "#show-justify-self-end", text: "justify-self: end; " },
   { id: "#show-justify-self-center", text: "justify-self: center; " },
   { id: "#show-justify-self-stretch", text: "justify-self: stretch; " },
+
+  // align-self
+  { id: "#show-align-self-start", text: "align-self: start; " },
+  { id: "#show-align-self-end", text: "align-self: end; " },
+  { id: "#show-align-self-center", text: "align-self: center; " },
+  { id: "#show-align-self-stretch", text: "align-self: stretch; " },
 ];
 
 (function () {

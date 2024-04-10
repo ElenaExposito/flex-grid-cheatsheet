@@ -1051,6 +1051,182 @@ export function getWebviewContentGrid(
             </div>
           </div>
         </div>
+
+        <div class="properties">
+          <h3>Primary Axis</h3>
+
+          <div class="justify-self">
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self"
+                target="_blank"
+                rel="noopener"
+                >justify-self</a
+              >
+            </h4>
+
+            <div class="property" id="justify-self-start">
+              <div>
+                <span class="property-title">justify-self</span>: start;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-justify-self-start item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="justify-self-end">
+              <div>
+                <span class="property-title">justify-self</span>: end;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-justify-self-end item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="justify-self-center">
+              <div>
+                <span class="property-title">justify-self</span>: center;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-justify-self-center item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="justify-self-stretch">
+              <div>
+                <span class="property-title">justify-self</span>: stretch;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-justify-self-stretch item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="properties">
+          <h3>Secondary Axis</h3>
+
+          <div class="align-self">
+            <h4>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-self"
+                target="_blank"
+                rel="noopener"
+                >align-self</a
+              >
+            </h4>
+
+            <div class="property" id="align-self-start">
+              <div>
+                <span class="property-title">align-self</span>: start;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-align-self-start item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="align-self-end">
+              <div>
+                <span class="property-title">align-self</span>: end;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-align-self-end item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="align-self-center">
+              <div>
+                <span class="property-title">align-self</span>: center;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-align-self-center item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+
+            <div class="property" id="align-self-stretch">
+              <div>
+                <span class="property-title">align-self</span>: stretch;
+              </div>
+
+                <div class="show-grid grid-container-auto-self">
+                  <span class="grid-item show-align-self-stretch item-1"></span>
+                  <span class="grid-item item-1"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-2"></span>
+                  <span class="grid-item item-3"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-4"></span>
+                  <span class="grid-item item-5"></span>
+                  <span class="grid-item item-6"></span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
       </div>
     </main>
 
