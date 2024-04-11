@@ -1,71 +1,62 @@
-# flex-grid-cheatsheet README
+<div align="center">
 
-This is the README for your extension "flex-grid-cheatsheet". After writing up a brief description, we recommend including the following sections.
+# **Flexbox and Gridbox CheatSheet**
 
-## Features
+<img src="images/Logo.png" alt="Flexbox and Gridbox CheatSheet Logo" width="300" />
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## _Copy and paste quickly, then look at the icons_
 
-For example if there is an image subfolder under your extension project workspace:
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)]()
+[![Project Status](https://img.shields.io/badge/Project-Active-green.svg)]()
 
-\!\[feature X\]\(images/feature-x.png\)
+</div>
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+_**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS rules and copy some of them to the clipboard._
 
-## Requirements
+<div align="center">
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+<img src="images/gifs/CheatSheet-completo.gif" alt="Extension operation" width="300">
+</div>
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+<details>
+<summary style="color: rgb(255, 177, 0);">Index</summary>
 
 ---
 
-## Following extension guidelines
+- [Features](#features)
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+</details>
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+---
 
-## Working with Markdown
+## <font style="color: rgb(255, 177, 0);">Features</font>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- Use the extension **icon** or the **command** `>open Flexbox and Gridbox Cheatsheet`:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<div align="center">
 
-## For more information
+<font style="color: rgb(0, 122, 204);">👀 **Icon option**</font>:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+<img src="images/gifs/Command_CheatSheet.gif" alt="Open with extension icon" width="300">
 
-**Enjoy!**
+<font style="color: rgb(0, 122, 204);">👀 **Command option**</font>:
+
+<img src="images/gifs/Icon_CheatSheet.gif" alt="Open with command Flexbox and Gridbox CheatSheet" width="300">
+</div>
+
+- Choose between the **"Flexbox"** or **"Gridbox"** CheatSheet.
+
+- **Consult the documentation** to learn more about an element:
+
+<div align="center">
+
+<img src="images/gifs/Documentacion.gif" alt="Consult the documentation" width="300">
+</div>
+
+- **Copy the code** to the clipboard:
+
+<div align="center">
+
+<img src="images/gifs/Code.gif" alt="Consult the documentation" width="300">
+</div>
