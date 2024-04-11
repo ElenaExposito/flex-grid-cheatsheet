@@ -16,7 +16,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 <div align="center">
 
-<img src="images/gifs/CheatSheet-completo.gif" alt="Extension operation" width="300">
+<img src="images/gifs/CheatSheet-completo.gif" alt="Extension operation" width="800">
 </div>
 
 <details>
@@ -38,11 +38,11 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 <font style="color: rgb(0, 122, 204);">👀 **Icon option**</font>:
 
-<img src="images/gifs/Command_CheatSheet.gif" alt="Open with extension icon" width="300">
+<img src="images/gifs/Command_CheatSheet.gif" alt="Open with extension icon" width="800">
 
 <font style="color: rgb(0, 122, 204);">👀 **Command option**</font>:
 
-<img src="images/gifs/Icon_CheatSheet.gif" alt="Open with command Flexbox and Gridbox CheatSheet" width="300">
+<img src="images/gifs/Icon_CheatSheet.gif" alt="Open with command Flexbox and Gridbox CheatSheet" width="800">
 </div>
 
 - Choose between the **"Flexbox"** or **"Gridbox"** CheatSheet.
@@ -51,12 +51,12 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 <div align="center">
 
-<img src="images/gifs/Documentacion.gif" alt="Consult the documentation" width="300">
+<img src="images/gifs/Documentacion.gif" alt="Consult the documentation" width="800">
 </div>
 
 - **Copy the code** to the clipboard:
 
 <div align="center">
 
-<img src="images/gifs/Code.gif" alt="Consult the documentation" width="300">
+<img src="images/gifs/Code.gif" alt="Consult the documentation" width="800">
 </div>
