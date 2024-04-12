@@ -31,12 +31,16 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
   - [Getting Started](#getting-started)
     - [Prerequisites:](#prerequisites)
     - [Installation:](#installation)
+  - [Thank yous](#thank-yous)
+    - [👨🏽‍💻 **José Román Hernández** for his CSS Chatsheet project.](#-josé-román-hernández-for-his-css-chatsheet-project)
+    - [👨🏽‍💻 **Ville V. Vanninen** for his css-cheats project.](#-ville-v-vanninen-for-his-css-cheats-project)
+    - [👨🏽‍💻 **Darek Kay** for his CSS Flexbox Cheatsheet project.](#-darek-kay-for-his-css-flexbox-cheatsheet-project)
 
 </details>
 
 ---
 
-## <font style="color: rgb(255, 177, 0);">Features</font>
+## Features
 
 - Use the extension **icon** or the **command** `>open Flexbox and Gridbox Cheatsheet`.
 
@@ -69,9 +73,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 <img src="images/gifs/Code.gif" alt="Copy to clipboard" width="800">
 </div>
 
-## <font style="color: rgb(255, 177, 0);">Getting Started</font>
-
----
+## Getting Started
 
 ### <font style="color: rgb(255, 177, 0);">Prerequisites:</font>
 
@@ -105,3 +107,42 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
    ```sh
    pnpm run dev
    ```
+
+## Thank yous
+
+### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **José Román Hernández**</font> for his [CSS Chatsheet](https://lenguajecss.com/css/cheatsheets/) project.
+
+<details>
+  <summary> 🗣️ How to contact him or view his content:</summary>
+
+| GitHub                                | Twitter                                                  | Instagram                                      | Linkedin                                                           |
+| ------------------------------------- | -------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ |
+| [ManzDev](https://github.com/ManzDev) | [Manz](https://twitter.com/manzhttps://twitter.com/manz) | [manz.dev](https://www.instagram.com/manz.dev) | [José Román Hernández](https://www.linkedin.com/in/joseromanhdez/) |
+
+| Website                      | Twitch                                   | Youtube                                     | TikTok                                      |
+| ---------------------------- | ---------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| [Website](https://manz.dev/) | [ManzDev](https://www.twitch.tv/ManzDev) | [ManzDev](https://www.youtube.com/@ManzDev) | [ManzDev](https://www.tiktok.com/@manz.dev) |
+
+</details>
+
+### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **Ville V. Vanninen**</font> for his [css-cheats](https://lenguajecss.com/css/cheatsheets/) project.
+
+<details>
+  <summary> 🗣️ How to contact him or view his content:</summary>
+
+| GitHub                                  | Twitter                                   | Website                         | Linkedin                                          |
+| --------------------------------------- | ----------------------------------------- | ------------------------------- | ------------------------------------------------- |
+| [sakamies](https://github.com/sakamies) | [@sakamies](https://twitter.com/sakamies) | [Website](https://pumpula.net/) | [sakamies](https://www.linkedin.com/in/sakamies/) |
+
+</details>
+
+### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **Darek Kay**</font> for his [CSS Flexbox Cheatsheet](https://github.com/darekkay/flexbox-cheatsheet) project.
+
+<details>
+  <summary>🗣️ How to contact him or view his content:</summary>
+
+| GitHub                                  | Website                                        |
+| --------------------------------------- | ---------------------------------------------- |
+| [darekkay](https://github.com/darekkay) | [https://darekkay.com/](https://darekkay.com/) |
+
+</details>
