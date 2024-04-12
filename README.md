@@ -35,6 +35,8 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
     - [👨🏽‍💻 **José Román Hernández** for his CSS Chatsheet project.](#-josé-román-hernández-for-his-css-chatsheet-project)
     - [👨🏽‍💻 **Ville V. Vanninen** for his css-cheats project.](#-ville-v-vanninen-for-his-css-cheats-project)
     - [👨🏽‍💻 **Darek Kay** for his CSS Flexbox Cheatsheet project.](#-darek-kay-for-his-css-flexbox-cheatsheet-project)
+  - [About me](#about-me)
+    - [👩‍💻 **Elena Expósito**](#-elena-expósito)
 
 </details>
 
@@ -144,5 +146,23 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 | GitHub                                  | Website                                        |
 | --------------------------------------- | ---------------------------------------------- |
 | [darekkay](https://github.com/darekkay) | [https://darekkay.com/](https://darekkay.com/) |
+
+</details>
+
+## About me
+
+### <summary style="color: rgb(0, 122, 204);">👩‍💻 **Elena Expósito**</summary>
+
+<details>
+<summary style="color: rgb(255, 177, 0);">Meet me</summary>
+
+---
+
+If you'd like to get to know me, you can reach out to me at:
+
+- GitHub: [ElenaExposito](https://github.com/ElenaExposito)
+- Linkedin: [Elena Expósito](https://www.linkedin.com/in/elena-exp%C3%B3sito-lara/)
+
+Or if you prefer, buy me a [☕ coffee ☕](https://www.buymeacoffee.com/elenaexposito?l=en).
 
 </details>
