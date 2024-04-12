@@ -31,7 +31,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
   - [Getting Started](#getting-started)
     - [Prerequisites:](#prerequisites)
     - [Installation:](#installation)
-  - [Thank yous](#thank-yous)
+  - [Thanks!](#thanks)
     - [👨🏽‍💻 **José Román Hernández** for his CSS Chatsheet project.](#-josé-román-hernández-for-his-css-chatsheet-project)
     - [👨🏽‍💻 **Ville V. Vanninen** for his css-cheats project.](#-ville-v-vanninen-for-his-css-cheats-project)
     - [👨🏽‍💻 **Darek Kay** for his CSS Flexbox Cheatsheet project.](#-darek-kay-for-his-css-flexbox-cheatsheet-project)
@@ -104,13 +104,9 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
    pnpm install
    ```
 
-3. Run the project
+3. Run the project pressing F5 inside VS Code
 
-   ```sh
-   pnpm run dev
-   ```
-
-## Thank yous
+## Thanks!
 
 ### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **José Román Hernández**</font> for his [CSS Chatsheet](https://lenguajecss.com/css/cheatsheets/) project.
 
