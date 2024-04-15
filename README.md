@@ -32,7 +32,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
     - [Prerequisites:](#prerequisites)
     - [Installation:](#installation)
   - [Thanks!](#thanks)
-    - [👨🏽‍💻 **José Román Hernández** for his CSS Chatsheet project.](#-josé-román-hernández-for-his-css-chatsheet-project)
+    - [👨🏽‍💻 **José Román Hernández** for his CSS Cheatsheet project.](#-josé-román-hernández-for-his-css-cheatsheet-project)
     - [👨🏽‍💻 **Ville V. Vanninen** for his css-cheats project.](#-ville-v-vanninen-for-his-css-cheats-project)
     - [👨🏽‍💻 **Darek Kay** for his CSS Flexbox Cheatsheet project.](#-darek-kay-for-his-css-flexbox-cheatsheet-project)
   - [About me](#about-me)
@@ -108,7 +108,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 ## Thanks!
 
-### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **José Román Hernández**</font> for his [CSS Chatsheet](https://lenguajecss.com/css/cheatsheets/) project.
+### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **José Román Hernández**</font> for his [CSS Cheatsheet](https://lenguajecss.com/css/cheatsheets/) project.
 
 <details>
   <summary> 🗣️ How to contact him or view his content:</summary>
