@@ -1,6 +1,7 @@
 {
   "name": "flex-grid-cheatsheet",
-  "displayName": "flex-grid-cheatsheet",
+  "displayName": "Flexbox and Gridbox CheatSheet",
+  "icon": "images/Logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ElenaExposito/flex-grid-cheatsheet"
