@@ -2,7 +2,7 @@
 
 # **Flexbox and Gridbox CheatSheet**
 
-<img src="images/Logo.png" alt="Flexbox and Gridbox CheatSheet Logo" width="300" />
+<img src="https://i.imgur.com/FLIWcuH.png" alt="Flexbox and Gridbox CheatSheet Logo" width="300" />
 
 ## _Copy and paste quickly, then look at the icons_
 
@@ -16,7 +16,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 <div align="center">
 
-<img src="images/gifs/CheatSheet-completo.gif" alt="Extension operation" width="800">
+<img src="https://i.imgur.com/9YO9x8Q.gif" alt="Extension operation" width="800">
 </div>
 
 <details>
@@ -60,19 +60,19 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 <font style="color: rgb(0, 122, 204);">**Icon option**</font>:
 
-<img src="images/gifs/Command_CheatSheet.gif" alt="Open with extension icon" width="800">
+<img src="https://i.imgur.com/eVaerV0.gif" alt="Open with extension icon" width="800">
 
 <font style="color: rgb(0, 122, 204);">**Command option**</font>:
 
-<img src="images/gifs/Icon_CheatSheet.gif" alt="Open with command Flexbox and Gridbox CheatSheet" width="800">
+<img src="https://i.imgur.com/3lnmbef.gif" alt="Open with command Flexbox and Gridbox CheatSheet" width="800">
 
 <font style="color: rgb(0, 122, 204);">**Consult documentation:**</font>:
 
-<img src="images/gifs/Documentacion.gif" alt="Consult the documentation" width="800">
+<img src="https://i.imgur.com/9dJZANT.gif" alt="Consult the documentation" width="800">
 
 <font style="color: rgb(0, 122, 204);">**Copy to clipboard**</font>:
 
-<img src="images/gifs/Code.gif" alt="Copy to clipboard" width="800">
+<img src="https://i.imgur.com/20l934K.gif" alt="Copy to clipboard" width="800">
 </div>
 
 ## Getting Started
