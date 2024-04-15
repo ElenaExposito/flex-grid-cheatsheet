@@ -123,7 +123,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 </details>
 
-### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **Ville V. Vanninen**</font> for his [css-cheats](https://lenguajecss.com/css/cheatsheets/) project.
+### <font style="color: rgb(0, 122, 204);">👨🏽‍💻 **Ville V. Vanninen**</font> for his [css-cheats](https://github.com/sakamies/css-cheats) project.
 
 <details>
   <summary> 🗣️ How to contact him or view his content:</summary>
