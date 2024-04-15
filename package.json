@@ -1,6 +1,10 @@
 {
   "name": "flex-grid-cheatsheet",
   "displayName": "flex-grid-cheatsheet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElenaExposito/flex-grid-cheatsheet"
+  },
   "description": "",
   "version": "0.0.1",
   "engines": {
