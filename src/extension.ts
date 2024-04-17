@@ -2,7 +2,9 @@ import * as vscode from "vscode";
 import { join } from "path";
 
 import { getWebviewContentFlex } from "./flexboxContent/flexboxContent";
+import { getWebviewContentFlexJS } from "./flexboxContent/flexboxContentJS";
 import { getWebviewContentGrid } from "./gridboxContent/gridboxContent";
+import { getWebviewContentGridJS } from "./gridboxContent/gridboxContentJS";
 
 export function activate(context: vscode.ExtensionContext) {
   // Hello and Good Bye commands
@@ -79,11 +81,35 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
 
+  // Create a new WebView panel for Flexbox JS
+  let openFlexboxJSView = vscode.commands.registerCommand(
+    "flex-grid-cheatsheet-js.openFlexboxView",
+    () => {
+      createWebViewPanel(
+        context,
+        "Flexbox Cheatsheet (CSS in JS)",
+        getWebviewContentFlexJS
+      );
+    }
+  );
+
   // Create a new WebView panel for Grid
   let openGridView = vscode.commands.registerCommand(
     "flex-grid-cheatsheet.openGridboxView",
     () => {
       createWebViewPanel(context, "Grid Cheatsheet", getWebviewContentGrid);
+    }
+  );
+
+  // Create a new WebView panel for Grid JS
+  let openGridJSView = vscode.commands.registerCommand(
+    "flex-grid-cheatsheet-js.openGridboxView",
+    () => {
+      createWebViewPanel(
+        context,
+        "Grid Cheatsheet (CSS in JS)",
+        getWebviewContentGridJS
+      );
     }
   );
 

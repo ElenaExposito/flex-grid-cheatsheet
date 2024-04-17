@@ -60,11 +60,11 @@
       },
       {
         "view": "package-flexbox",
-        "contents": "[Open Flexbox Cheatsheet](command:flex-grid-cheatsheet.openFlexboxView)"
+        "contents": "[Open Flexbox Cheatsheet](command:flex-grid-cheatsheet.openFlexboxView)\n[Open Flexbox Cheatsheet (CSS in JS)](command:flex-grid-cheatsheet-js.openFlexboxView)"
       },
       {
         "view": "package-gridbox",
-        "contents": "[Open Gridbox Cheatsheet](command:flex-grid-cheatsheet.openGridboxView)"
+        "contents": "[Open Gridbox Cheatsheet](command:flex-grid-cheatsheet.openGridboxView)\n[Open Gridbox Cheatsheet (CSS in JS)](command:flex-grid-cheatsheet-js.openGridboxView)"
       }
     ]
   },
