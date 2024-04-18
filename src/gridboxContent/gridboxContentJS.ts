@@ -11,13 +11,13 @@ export function getWebviewContentGridJS(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gridbox Cheatsheet</title>
+    <title>Gridbox Cheatsheet (CSS in JS)</title>
     <link rel="stylesheet" href="${stylePath}/custom.css" />
   </head>
 
   <body>
     <main>
-      <h1>Gridbox Cheatsheet</h1>
+      <h1>Gridbox Cheatsheet (CSS in JS)</h1>
 
       <div class="container-properties">
         <h2>Container Properties</h2>
