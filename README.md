@@ -52,6 +52,8 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 
 - **Copy the code** to the clipboard.
 
+- Choose between **standard CSS properties** or **CSS in JS properties** for better integration with JavaScript.
+
 ---
 
 <div align="center">
