@@ -33,13 +33,13 @@ export function getWebviewContentGridJS(
           </h3>
 
           <div class="display-grid">
-            <div class="property" id="display-grid">
+            <div class="property" id="display-grid-js">
               <div>
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#grid"
                   target="_blank"
                   rel="noopener"
-                  >display: grid;</a
+                  >display: 'grid'</a
                 >
               </div>
               <div class="show-grid">
@@ -52,13 +52,13 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="display-inline-grid">
+            <div class="property" id="display-inline-grid-js">
               <div>
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-grid"
                   target="_blank"
                   rel="noopener"
-                  >display: inline-grid;</a
+                  >display: 'inlineGrid'</a
                 >
               </div>
               <div class="show-grid show-display-inline-grid">
@@ -71,13 +71,13 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="display-subgrid">
+            <div class="property" id="display-subgrid-js">
               <div>
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid"
                   target="_blank"
                   rel="noopener"
-                  >display: subgrid;</a
+                  >display: 'subgrid'</a
                 >
               </div>
               <div class="show-grid show-display-subgrid">
@@ -101,15 +101,15 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template"
                 target="_blank"
                 rel="noopener"
-                >grid-template</a
+                >gridTemplate</a
               >
             </h4>
             
-            <div class="property" id="grid-template-columns-rows-none">
+            <div class="property" id="grid-template-columns-rows-none-js">
               <div>
-                <span class="property-title">grid-template-columns</span>: none;
+                <span class="property-title">gridTemplateColumns</span>: 'none'
                 <br />
-                <span class="property-title">grid-template-rows</span>: none;
+                <span class="property-title">gridTemplateRows</span>: 'none'
               </div>
 
               <div class="show-grid show-grid-template-columns-rows-none">
@@ -125,11 +125,11 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-template-columns-rows-tracks">
+            <div class="property" id="grid-template-columns-rows-tracks-js">
               <div>
-                <span class="property-title">grid-template-columns</span>: 8px auto 8px;
+                <span class="property-title">gridTemplateColumns</span>: '8px auto 8px'
                 </br>
-                <span class="property-title">grid-template-columns</span>: 22% auto 22%;
+                <span class="property-title">gridTemplateColumns</span>: '22% auto 22%'
               </div>
               
               <div class="show-grid show-grid-template-columns-rows-tracks">
@@ -145,11 +145,11 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-template-columns-rows-repeat">
+            <div class="property" id="grid-template-columns-rows-repeat-js">
               <div>
-                <span class="property-title">grid-template-columns</span>: repeat(3, 12px);
+                <span class="property-title">gridTemplateColumns</span>: 'repeat(3, 12px)'
                 </br>
-                <span class="property-title">grid-template-columns</span>: repeat(3, 12px);
+                <span class="property-title">gridTemplateColumns</span>: 'repeat(3, 12px)'
               </div>
 
               <div class="show-grid show-grid-template-columns-rows-repeat">
@@ -175,19 +175,19 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas"
                 target="_blank"
                 rel="noopener"
-                >grid-template-areas</a
+                >gridTemplateAreas</a
               >
             </h4>
 
-            <div class="property" id="grid-template-areas-string-1">
+            <div class="property" id="grid-template-areas-string-1-js">
               <div>
-                <span class="property-title">grid-template-areas</span>:
+                <span class="property-title">gridTemplateAreas</span>:
                 <br>
-                 "a a a"
+                 '"a a a"
                  <br>
                  "b c c"
                  <br>
-                 "b c c";
+                 "b c c"'
               </div>
               <div class="show-grid show-grid-template-areas-string-1">
                 <span class="grid-item item-1"></span>
@@ -196,15 +196,15 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-template-areas-string-2">
+            <div class="property" id="grid-template-areas-string-2-js">
               <div>
-                <span class="property-title">grid-template-areas</span>:
+                <span class="property-title">gridTemplateAreas</span>:
                 <br>
-                 "b b a"
+                 '"b b a"
                  <br>
                  "b b c"
                  <br>
-                 "b b c";
+                 "b b c"'
               </div>
               <div class="show-grid show-grid-template-areas-string-2">
                 <span class="grid-item item-1"></span>
@@ -213,15 +213,15 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-template-areas-string-3">
+            <div class="property" id="grid-template-areas-string-3-js">
               <div>
-                <span class="property-title">grid-template-areas</span>:
+                <span class="property-title">gridTemplateAreas</span>:
                 <br>
-                 "a a ."
+                 '"a a ."
                  <br>
                  "a a ."
                  <br>
-                 ". b c";
+                 ". b c"'
               </div>
               <div class="show-grid show-grid-template-areas-string-3">
                 <span class="grid-item item-1"></span>
@@ -236,15 +236,15 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area"
                 target="_blank"
                 rel="noopener"
-                >grid-area</a>
+                >gridArea</a>
             </h4>
 
-            <div class="property" id="grid-area">
+            <div class="property" id="grid-area-js">
               <div>
-                <span class="property-title">grid-area</span>: <i>custom area name</i>;
+                <span class="property-title">gridArea</span>: <i>'custom area name'</i>
               </div>
             </div>
-            <h5>* Remember to use grid-area for the child elements to tell them where to place themselves based on the names defined in grid-template-areas.</h5>
+            <h5>* Remember to use gridArea for the child elements to tell them where to place themselves based on the names defined in grid-template-areas.</h5>
           </div>
         </div>
 
@@ -257,17 +257,17 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid"
                 target="_blank"
                 rel="noopener"
-                >grid-auto</a
+                >gridAuto</a
               >
             </h4>
 
-            <div class="property" id="grid-auto-columns">
+            <div class="property" id="grid-auto-columns-js">
               <div>
-                <span class="property-title">grid-auto-columns</span>: 8px;
+                <span class="property-title">gridAutoColumns</span>: '8px'
                 <br />
-                <span class="property-title">grid-auto-columns</span>: 22%;
+                <span class="property-title">gridAutoColumns</span>: '22%'
                 <br />
-                <span class="property-title">grid-auto-columns</span>: auto;
+                <span class="property-title">gridAutoColumns</span>: 'auto'
               </div>
               <div class="show-grid show-grid-auto-columns">
                 <span class="grid-item item-1"></span>
@@ -276,13 +276,13 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-auto-rows">
+            <div class="property" id="grid-auto-rows-js">
               <div>
-                <span class="property-title">grid-auto-rows</span>: 8px;
+                <span class="property-title">gridAutoRows</span>: '8px'
                 <br />
-                <span class="property-title">grid-auto-rows</span>: 22%;
+                <span class="property-title">gridAutoRows</span>: '22%'
                 <br />
-                <span class="property-title">grid-auto-rows</span>: auto;
+                <span class="property-title">gridAutoRows</span>: 'auto'
               </div>
               <div class="show-grid show-grid-auto-rows">
                 <span class="grid-item item-1"></span>
@@ -291,9 +291,9 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-auto-flow-row">
+            <div class="property" id="grid-auto-flow-row-js">
               <div>
-                <span class="property-title">grid-auto-flow</span>: row;
+                <span class="property-title">gridAutoFlow</span>: 'row'
               </div>
               <div class="show-grid show-grid-auto-flow-row">
                 <span class="grid-item item-1"></span>
@@ -302,9 +302,9 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-auto-flow-column">
+            <div class="property" id="grid-auto-flow-column-js">
               <div>
-                <span class="property-title">grid-auto-flow</span>: column;
+                <span class="property-title">gridAutoFlow</span>: 'column'
               </div>
               <div class="show-grid show-grid-auto-flow-column">
                 <span class="grid-item item-1"></span>
@@ -313,9 +313,9 @@ export function getWebviewContentGridJS(
               </div>
             </div>
 
-            <div class="property" id="grid-auto-flow-dense">
+            <div class="property" id="grid-auto-flow-dense-js">
               <div>
-                <span class="property-title">grid-auto-flow</span>: dense;
+                <span class="property-title">gridAutoFlow</span>: 'dense'
               </div>
               <div class="show-grid show-grid-auto-flow-dense">
                 <span class="grid-item item-1"></span>
@@ -339,13 +339,13 @@ export function getWebviewContentGridJS(
               >
             </h4>
 
-            <div class="property" id="grid-column-gap">
+            <div class="property" id="grid-column-gap-js">
               <div>
-                <span class="property-title">grid-column-gap</span>: 8px;
+                <span class="property-title">gridColumnGap</span>: '8px'
                 <br />
-                <span class="property-title">grid-column-gap</span>: 22%;
+                <span class="property-title">gridColumnGap</span>: '22%'
                 <br />
-                <span class="property-title">grid-column-gap</span>: 0;
+                <span class="property-title">gridColumnGap</span>: '0'
               </div>
 
                 <div class="show-grid show-grid-column-gap">
@@ -355,13 +355,13 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-row-gap">
+            <div class="property" id="grid-row-gap-js">
               <div>
-                <span class="property-title">grid-row-gap</span>: 8px;
+                <span class="property-title">gridRowGap</span>: '8px'
                 <br />
-                <span class="property-title">grid-row-gap</span>: 22%;
+                <span class="property-title">gridRowGap</span>: '22%'
                 <br />
-                <span class="property-title">grid-row-gap</span>: 0;
+                <span class="property-title">gridRowGap</span>: '0'
               </div>
 
                 <div class="show-grid show-grid-row-gap">
@@ -371,9 +371,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-gap">
+            <div class="property" id="grid-gap-js">
               <div>
-                <span class="property-title">grid-gap</span>: <i>row-gap</i> <i>column-gap</i>;
+                <span class="property-title">gridGap</span>: '<i>row-gap</i> <i>column-gap</i>'
               </div>
 
                 <div class="show-grid show-grid-gap">
@@ -396,13 +396,13 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items"
                 target="_blank"
                 rel="noopener"
-                >justify-items</a
+                >justifyItems</a
               >
             </h4>
 
-            <div class="property" id="show-justify-items-start">
+            <div class="property" id="show-justify-items-start-js">
               <div>
-                <span class="property-title">justify-items</span>: start;
+                <span class="property-title">justifyItems</span>: 'start'
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-start">
@@ -418,9 +418,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-items-end">
+            <div class="property" id="show-justify-items-end-js">
               <div>
-                <span class="property-title">justify-items</span>: end;
+                <span class="property-title">justifyItems</span>: 'end'
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-end">
@@ -436,9 +436,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-items-center">
+            <div class="property" id="show-justify-items-center-js">
               <div>
-                <span class="property-title">justify-items</span>: center;
+                <span class="property-title">justifyItems</span>: 'center'
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-center">
@@ -454,9 +454,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-items-stretch">
+            <div class="property" id="show-justify-items-stretch-js">
               <div>
-                <span class="property-title">justify-items</span>: stretch;
+                <span class="property-title">justifyItems</span>: 'stretch'
               </div>
 
                 <div class="show-grid grid-container-auto show-justify-items-stretch">
@@ -484,13 +484,13 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items"
                 target="_blank"
                 rel="noopener"
-                >align-items</a
+                >alignItems</a
               >
             </h4>
 
-            <div class="property" id="show-align-items-start">
+            <div class="property" id="show-align-items-start-js">
               <div>
-                <span class="property-title">align-items</span>: start;
+                <span class="property-title">alignItems</span>: 'start'
               </div>
 
                 <div class="show-grid grid-container-auto show-align-items-start">
@@ -506,9 +506,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-items-end">
+            <div class="property" id="show-align-items-end-js">
               <div>
-                <span class="property-title">align-items</span>: end;
+                <span class="property-title">alignItems</span>: 'end'
               </div>
 
                 <div class="show-grid grid-container-auto show-align-items-end">
@@ -524,9 +524,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-items-center">
+            <div class="property" id="show-align-items-center-js">
               <div>
-                <span class="property-title">align-items</span>: center;
+                <span class="property-title">alignItems</span>: 'center'
               </div>
 
                 <div class="show-grid grid-container-auto show-align-items-center">
@@ -542,9 +542,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-items-stretch">
+            <div class="property" id="show-align-items-stretch-js">
               <div>
-                <span class="property-title">align-items</span>: stretch;
+                <span class="property-title">alignItems</span>: 'stretch'
               </div>
 
                 <div class="show-grid grid-container-auto show-align-items-stretch">
@@ -572,13 +572,13 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content"
                 target="_blank"
                 rel="noopener"
-                >justify-content</a
+                >justifyContent</a
               >
             </h4>
 
-            <div class="property" id="show-justify-content-start">
+            <div class="property" id="show-justify-content-start-js">
               <div>
-                <span class="property-title">justify-content</span>: start;
+                <span class="property-title">justifyContent</span>: 'start'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-start">
@@ -594,9 +594,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-content-end">
+            <div class="property" id="show-justify-content-end-js">
               <div>
-                <span class="property-title">justify-content</span>: end;
+                <span class="property-title">justifyContent</span>: 'end'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-end">
@@ -612,9 +612,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-content-center">
+            <div class="property" id="show-justify-content-center-js">
               <div>
-                <span class="property-title">justify-content</span>: center;
+                <span class="property-title">justifyContent</span>: 'center'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-center">
@@ -630,9 +630,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-content-stretch">
+            <div class="property" id="show-justify-content-stretch-js">
               <div>
-                <span class="property-title">justify-content</span>: stretch;
+                <span class="property-title">justifyContent</span>: 'stretch'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-stretch">
@@ -648,9 +648,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-content-space-around">
+            <div class="property" id="show-justify-content-space-around-js">
               <div>
-                <span class="property-title">justify-content</span>: space-around;
+                <span class="property-title">justifyContent</span>: 'spaceAround'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-space-around">
@@ -666,9 +666,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-content-space-between">
+            <div class="property" id="show-justify-content-space-between-js">
               <div>
-                <span class="property-title">justify-content</span>: space-between;
+                <span class="property-title">justifyContent</span>: 'spaceBetween'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-space-between">
@@ -684,9 +684,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-content-space-evenly">
+            <div class="property" id="show-justify-content-space-evenly-js">
               <div>
-                <span class="property-title">justify-content</span>: space-evenly;
+                <span class="property-title">justifyContent</span>: 'spaceEvenly'
               </div>
 
                 <div class="show-grid grid-justify-content show-justify-content-space-evenly">
@@ -709,13 +709,13 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content"
                 target="_blank"
                 rel="noopener"
-                >align-content</a
+                >alignContent</a
               >
             </h4>
 
-            <div class="property" id="show-align-content-start">
+            <div class="property" id="show-align-content-start-js">
               <div>
-                <span class="property-title">align-content</span>: start;
+                <span class="property-title">alignContent</span>: 'start'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-start">
@@ -731,9 +731,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-content-end">
+            <div class="property" id="show-align-content-end-js">
               <div>
-                <span class="property-title">align-content</span>: end;
+                <span class="property-title">alignContent</span>: 'end'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-end">
@@ -749,9 +749,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-content-center">
+            <div class="property" id="show-align-content-center-js">
               <div>
-                <span class="property-title">align-content</span>: center;
+                <span class="property-title">alignContent</span>: 'center'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-center">
@@ -767,9 +767,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-content-stretch">
+            <div class="property" id="show-align-content-stretch-js">
               <div>
-                <span class="property-title">align-content</span>: stretch;
+                <span class="property-title">alignContent</span>: 'stretch'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-stretch">
@@ -785,9 +785,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-content-space-around">
+            <div class="property" id="show-align-content-space-around-js">
               <div>
-                <span class="property-title">align-content</span>: space-around;
+                <span class="property-title">alignContent</span>: 'spaceAround'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-space-around">
@@ -803,9 +803,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-content-space-between">
+            <div class="property" id="show-align-content-space-between-js">
               <div>
-                <span class="property-title">align-content</span>: space-between;
+                <span class="property-title">alignContent</span>: 'spaceBetween'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-space-between">
@@ -821,9 +821,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-content-space-evenly">
+            <div class="property" id="show-align-content-space-evenly-js">
               <div>
-                <span class="property-title">align-content</span>: space-evenly;
+                <span class="property-title">alignContent</span>: 'spaceEvenly'
               </div>
 
                 <div class="show-grid grid-align-content show-align-content-space-evenly">
@@ -854,15 +854,15 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column"
                 target="_blank"
                 rel="noopener"
-                >grid-column</a
+                >gridColumn</a
               >
             </h4>
 
-            <div class="property" id="grid-column-start">
+            <div class="property" id="grid-column-start-js">
               <div>
-                <span class="property-title">grid-column-start</span>: line;
+                <span class="property-title">gridColumnStart</span>: 'line'
                 <br />
-                <span class="property-title">grid-column-end</span>: line;
+                <span class="property-title">gridColumnEnd</span>: 'line'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -877,9 +877,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-column-start-span">
+            <div class="property" id="grid-column-start-span-js">
               <div>
-                <span class="property-title">grid-column-start</span>: span line;
+                <span class="property-title">gridColumnStart</span>: 'span line'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -893,9 +893,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-column-container">
+            <div class="property" id="grid-column-container-js">
               <div>
-                <span class="property-title">grid-column</span>: column-start / column-end;
+                <span class="property-title">gridColumn</span>: 'column-start / column-end'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -910,9 +910,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-column-container-span">
+            <div class="property" id="grid-column-container-span-js">
               <div>
-                <span class="property-title">grid-column</span>: span column-start / span column-end;
+                <span class="property-title">gridColumn</span>: 'span columnStart / span columnEnd'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -933,15 +933,15 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row"
                 target="_blank"
                 rel="noopener"
-                >grid-row</a
+                >gridRow</a
               >
             </h4>
 
-            <div class="property" id="grid-row-start">
+            <div class="property" id="grid-row-start-js">
               <div>
-                <span class="property-title">grid-row-start</span>: line;
+                <span class="property-title">gridRowStart</span>: 'line'
                 <br />
-                <span class="property-title">grid-row-end</span>: line;
+                <span class="property-title">gridRowEnd</span>: 'line'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -956,9 +956,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-row-start-span">
+            <div class="property" id="grid-row-start-span-js">
               <div>
-                <span class="property-title">grid-row-start</span>: span line;
+                <span class="property-title">gridRowStart</span>: 'span line'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -972,9 +972,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-row-container">
+            <div class="property" id="grid-row-container-js">
               <div>
-                <span class="property-title">grid-row</span>: row-start / row-end;
+                <span class="property-title">gridRow</span>: rowStart / rowEnd
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -989,9 +989,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-row-container-span">
+            <div class="property" id="grid-row-container-span-js">
               <div>
-                <span class="property-title">grid-row</span>: span row-start / span row-end;
+                <span class="property-title">gridRow</span>: span rowStart / span rowEnd
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -1012,15 +1012,15 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column#constituent_properties"
                 target="_blank"
                 rel="noopener"
-                >grid-row + grid-column</a
+                >gridRow + gridColumn</a
               >
             </h4>
 
-            <div class="property" id="grid-column-row">
+            <div class="property" id="grid-column-row-js">
               <div>
-                <span class="property-title">grid-row</span>: 1 / span 2;
+                <span class="property-title">gridRow</span>: '1 / span 2'
                 <br />
-                <span class="property-title">grid-column</span>: 1 / span 2;
+                <span class="property-title">gridColumn</span>: '1 / span 2'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -1033,11 +1033,11 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="grid-row-column">
+            <div class="property" id="grid-row-column-js">
               <div>
-                <span class="property-title">grid-row</span>: 2 / span 2;
+                <span class="property-title">gridRow</span>: '2 / span 2'
                 <br />
-                <span class="property-title">grid-column</span>: 2 / span 2;
+                <span class="property-title">gridColumn</span>: '2 / span 2'
               </div>
 
                 <div class="show-grid grid-container-auto">
@@ -1061,13 +1061,13 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self"
                 target="_blank"
                 rel="noopener"
-                >justify-self</a
+                >justifySelf</a
               >
             </h4>
 
-            <div class="property" id="show-justify-self-start">
+            <div class="property" id="show-justify-self-start-js">
               <div>
-                <span class="property-title">justify-self</span>: start;
+                <span class="property-title">justifySelf</span>: 'start'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1083,9 +1083,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-self-end">
+            <div class="property" id="show-justify-self-end-js">
               <div>
-                <span class="property-title">justify-self</span>: end;
+                <span class="property-title">justifySelf</span>: 'end'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1101,9 +1101,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-self-center">
+            <div class="property" id="show-justify-self-center-js">
               <div>
-                <span class="property-title">justify-self</span>: center;
+                <span class="property-title">justifySelf</span>: 'center'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1119,9 +1119,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-justify-self-stretch">
+            <div class="property" id="show-justify-self-stretch-js">
               <div>
-                <span class="property-title">justify-self</span>: stretch;
+                <span class="property-title">justifySelf</span>: 'stretch'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1148,13 +1148,13 @@ export function getWebviewContentGridJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-self"
                 target="_blank"
                 rel="noopener"
-                >align-self</a
+                >alignSelf</a
               >
             </h4>
 
-            <div class="property" id="show-align-self-start">
+            <div class="property" id="show-align-self-start-js">
               <div>
-                <span class="property-title">align-self</span>: start;
+                <span class="property-title">alignSelf</span>: 'start'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1170,9 +1170,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-self-end">
+            <div class="property" id="show-align-self-end-js">
               <div>
-                <span class="property-title">align-self</span>: end;
+                <span class="property-title">alignSelf</span>: 'end'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1188,9 +1188,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-self-center">
+            <div class="property" id="show-align-self-center-js">
               <div>
-                <span class="property-title">align-self</span>: center;
+                <span class="property-title">alignSelf</span>: 'center'
               </div>
 
                 <div class="show-grid grid-container-auto-self">
@@ -1206,9 +1206,9 @@ export function getWebviewContentGridJS(
                 </div>
             </div>
 
-            <div class="property" id="show-align-self-stretch">
+            <div class="property" id="show-align-self-stretch-js">
               <div>
-                <span class="property-title">align-self</span>: stretch;
+                <span class="property-title">alignSelf</span>: 'stretch'
               </div>
 
                 <div class="show-grid grid-container-auto-self">

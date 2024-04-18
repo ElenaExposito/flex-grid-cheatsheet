@@ -206,146 +206,146 @@ const texts = [
   // order
   { id: "#order-number-js", text: "order: '0'" },
 
-  // GRID
+  // GRID + JS
   // Display
-  { id: "#display-grid", text: "display: grid;" },
-  { id: "#display-inline-grid", text: "display: inline-grid;" },
-  { id: "#display-subgrid", text: "display: subgrid;" },
+  { id: "#display-grid-js", text: "display: 'grid'" },
+  { id: "#display-inline-grid-js", text: "display: 'inlineGrid'" },
+  { id: "#display-subgrid-js", text: "display: 'subgrid'" },
 
-  // grid-template-columns-rows-none
+  // gridTemplateColumnsRowsNone
   {
-    id: "#grid-template-columns-rows-none",
-    text: "grid-template-columns: none;\ngrid-template-rows: none;",
+    id: "#grid-template-columns-rows-none-js",
+    text: "gridTemplateColumns: 'none',\ngridTemplateRows: 'none'",
   },
 
-  // grid-template-columns-rows-tracks
+  // gridTemplateColumnsRowsTracks
   {
-    id: "#grid-template-columns-rows-tracks",
-    text: "grid-template-columns: 8px auto 8px;\ngrid-template-rows: 22% auto 22%;",
+    id: "#grid-template-columns-rows-tracks-js",
+    text: "gridTemplateColumns: '8px auto 8px',\ngridTemplateRows: '22% auto 22%'",
   },
 
-  // grid-template-columns-rows-repeat
+  // gridTemplateColumnsRowsRepeat
   {
-    id: "#grid-template-columns-rows-repeat",
-    text: "grid-template-columns: repeat(3, 12px);\ngrid-template-rows: repeat(3, 12px);",
+    id: "#grid-template-columns-rows-repeat-js",
+    text: "gridTemplateColumns: 'repeat(3, 12px)',\ngridTemplateRows: 'repeat(3, 12px)'",
   },
 
-  // grid-template-areas-string
+  // gridTemplateAreasString
   {
-    id: "#grid-template-areas-string-1",
-    text: 'grid-template-areas:\n"a a a"\n"b c c"\n"b c c";',
+    id: "#grid-template-areas-string-1-js",
+    text: 'gridTemplateAreas:\n"a a a"\n"b c c"\n"b c c"',
   },
   {
-    id: "#grid-template-areas-string-2",
-    text: 'grid-template-areas:\n  "b b a"\n  "b b c"\n  "b b c";',
+    id: "#grid-template-areas-string-2-js",
+    text: 'gridTemplateAreas:\n  "b b a"\n  "b b c"\n  "b b c"',
   },
   {
-    id: "#grid-template-areas-string-3",
-    text: 'grid-template-areas:\n  "a a ."\n  "a a ."\n  ". b c";',
-  },
-
-  // grid-area
-  { id: "#grid-area", text: "grid-area: a;" },
-
-  // grid-auto
-  { id: "#grid-auto-columns", text: "grid-auto-columns: 8px;" },
-  { id: "#grid-auto-rows", text: "grid-auto-rows: 8px;" },
-  { id: "#grid-auto-flow-row", text: "grid-auto-flow: row;" },
-  { id: "#grid-auto-flow-column", text: "grid-auto-flow: column;" },
-  { id: "#grid-auto-flow-dense", text: "grid-auto-flow: dense;" },
-
-  // grid-gaps
-  { id: "#grid-column-gap", text: "grid-column-gap: 8px;" },
-  { id: "#grid-row-gap", text: "grid-row-gap: 8px;" },
-  { id: "#grid-gap", text: "grid-gap: 10px 2px;" },
-
-  // justify-items
-  { id: "#show-justify-items-start", text: "justify-items: start; " },
-  { id: "#show-justify-items-end", text: "justify-items: end; " },
-  { id: "#show-justify-items-center", text: "justify-items: center; " },
-  { id: "#show-justify-items-stretch", text: "justify-items: stretch; " },
-
-  // align-items
-  { id: "#show-align-items-start", text: "align-items: start; " },
-  { id: "#show-align-items-end", text: "align-items: end; " },
-  { id: "#show-align-items-center", text: "align-items: center; " },
-  { id: "#show-align-items-stretch", text: "align-items: stretch; " },
-
-  // justify-content
-  { id: "#show-justify-content-start", text: "justify-content: start; " },
-  { id: "#show-justify-content-end", text: "justify-content: end; " },
-  { id: "#show-justify-content-center", text: "justify-content: center; " },
-  { id: "#show-justify-content-stretch", text: "justify-content: stretch; " },
-  {
-    id: "#show-justify-content-space-around",
-    text: "justify-content: space-around; ",
-  },
-  {
-    id: "#show-justify-content-space-between",
-    text: "justify-content: space-between; ",
-  },
-  {
-    id: "#show-justify-content-space-evenly",
-    text: "justify-content: space-evenly; ",
+    id: "#grid-template-areas-string-3-js",
+    text: 'gridTemplateAreas:\n  "a a ."\n  "a a ."\n  ". b c"',
   },
 
-  // align-content
-  { id: "#show-align-content-start", text: "align-content: start; " },
-  { id: "#show-align-content-end", text: "align-content: end; " },
-  { id: "#show-align-content-center", text: "align-content: center; " },
-  { id: "#show-align-content-stretch", text: "align-content: stretch; " },
+  // gridArea
+  { id: "#grid-area-js", text: "gridArea: 'a'" },
+
+  // gridAuto
+  { id: "#grid-auto-columns-js", text: "gridAutoColumns: '8px'" },
+  { id: "#grid-auto-rows-js", text: "gridAutoRows: '8px'" },
+  { id: "#grid-auto-flow-row-js", text: "gridAutoFlow: 'row'" },
+  { id: "#grid-auto-flow-column-js", text: "gridAutoFlow: 'column'" },
+  { id: "#grid-auto-flow-dense-js", text: "gridAutoFlow: 'dense'" },
+
+  // gridGaps
+  { id: "#grid-column-gap-js", text: "gridColumnGap: '8px'" },
+  { id: "#grid-row-gap-js", text: "gridRowGap: '8px'" },
+  { id: "#grid-gap-js", text: "gridGap: '10px 2px'" },
+
+  // justifyItems
+  { id: "#show-justify-items-start-js", text: "justifyItems: 'start'" },
+  { id: "#show-justify-items-end-js", text: "justifyItems: 'end'" },
+  { id: "#show-justify-items-center-js", text: "justifyItems: 'center'" },
+  { id: "#show-justify-items-stretch-js", text: "justifyItems: 'stretch'" },
+
+  // alignItems
+  { id: "#show-align-items-start-js", text: "alignItems: 'start'" },
+  { id: "#show-align-items-end-js", text: "alignItems: 'end'" },
+  { id: "#show-align-items-center-js", text: "alignItems: 'center'" },
+  { id: "#show-align-items-stretch-js", text: "alignItems: 'stretch'" },
+
+  // justifyContent
+  { id: "#show-justify-content-start-js", text: "justifyContent: 'start'" },
+  { id: "#show-justify-content-end-js", text: "justifyContent: 'end'" },
+  { id: "#show-justify-content-center-js", text: "justifyContent: 'center'" },
+  { id: "#show-justify-content-stretch-js", text: "justifyContent: 'stretch'" },
   {
-    id: "#show-align-content-space-around",
-    text: "align-content: space-around; ",
+    id: "#show-justify-content-space-around-js",
+    text: "justifyContent: 'spaceAround'",
   },
   {
-    id: "#show-align-content-space-between",
-    text: "align-content: space-between; ",
+    id: "#show-justify-content-space-between-js",
+    text: "justifyContent: 'spaceBetween'",
   },
   {
-    id: "#show-align-content-space-evenly",
-    text: "align-content: space-evenly; ",
+    id: "#show-justify-content-space-evenly-js",
+    text: "justifyContent: 'spaceEvenly'",
   },
 
-  // grid-column
+  // alignContent
+  { id: "#show-align-content-start-js", text: "alignContent: 'start'" },
+  { id: "#show-align-content-end-js", text: "alignContent: 'end'" },
+  { id: "#show-align-content-center-js", text: "alignContent: 'center'" },
+  { id: "#show-align-content-stretch-js", text: "alignContent: 'stretch'" },
   {
-    id: "#grid-column-start",
-    text: "grid-column-start: 1;\n grid-column-end: 3;",
-  },
-  { id: "#grid-column-start-span", text: "grid-column-start: span 3;" },
-  { id: "#grid-column-container", text: "grid-column: 2 / 3;" },
-  { id: "#grid-column-container-span", text: "grid-column: 2 / span 2;" },
-
-  // grid-row
-  {
-    id: "#grid-row-start",
-    text: "grid-row-start: 1;\n grid-row-end: 3;",
-  },
-  { id: "#grid-row-start-span", text: "grid-row-start: span 3;" },
-  { id: "#grid-row-container", text: "grid-row: 1 / 3;" },
-  { id: "#grid-row-container-span", text: "grid-row: 1 / span 3;" },
-
-  // Combining grid-column and grid-row
-  {
-    id: "#grid-column-row",
-    text: "grid-row: 1 / span 2;\n grid-column: 1 / span 2;",
+    id: "#show-align-content-space-around-js",
+    text: "alignContent: 'spaceAround'",
   },
   {
-    id: "#grid-row-column",
-    text: "grid-row: 2 / span 2;\n grid-column: 2 / span 2;",
+    id: "#show-align-content-space-between-js",
+    text: "alignContent: 'spaceBetween'",
+  },
+  {
+    id: "#show-align-content-space-evenly-js",
+    text: "alignContent: 'spaceEvenly'",
   },
 
-  // justify-self
-  { id: "#show-justify-self-start", text: "justify-self: start; " },
-  { id: "#show-justify-self-end", text: "justify-self: end; " },
-  { id: "#show-justify-self-center", text: "justify-self: center; " },
-  { id: "#show-justify-self-stretch", text: "justify-self: stretch; " },
+  // gridColumn
+  {
+    id: "#grid-column-start-js",
+    text: "gridColumnStart: 1,\ngridColumnEnd: 3",
+  },
+  { id: "#grid-column-start-span-js", text: "gridColumnStart: 'span 3'" },
+  { id: "#grid-column-container-js", text: "gridColumn: '2 / 3'" },
+  { id: "#grid-column-container-span-js", text: "gridColumn: '2 / span 2'" },
 
-  // align-self
-  { id: "#show-align-self-start", text: "align-self: start; " },
-  { id: "#show-align-self-end", text: "align-self: end; " },
-  { id: "#show-align-self-center", text: "align-self: center; " },
-  { id: "#show-align-self-stretch", text: "align-self: stretch; " },
+  // gridRow
+  {
+    id: "#grid-row-start-js",
+    text: "gridRowStart: 1,\ngridRowEnd: 3",
+  },
+  { id: "#grid-row-start-span-js", text: "gridRowStart: 'span 3'" },
+  { id: "#grid-row-container-js", text: "gridRow: '1 / 3'" },
+  { id: "#grid-row-container-span-js", text: "gridRow: '1 / span 3'" },
+
+  // Combining gridColumn and gridRow
+  {
+    id: "#grid-column-row-js",
+    text: "gridRow: '1 / span 2',\ngridColumn: '1 / span 2'",
+  },
+  {
+    id: "#grid-row-column-js",
+    text: "gridRow: '2 / span 2',\ngridColumn: '2 / span 2'",
+  },
+
+  // justifySelf
+  { id: "#show-justify-self-start-js", text: "justifySelf: 'start'" },
+  { id: "#show-justify-self-end-js", text: "justifySelf: 'end'" },
+  { id: "#show-justify-self-center-js", text: "justifySelf: 'center'" },
+  { id: "#show-justify-self-stretch-js", text: "justifySelf: 'stretch'" },
+
+  // alignSelf
+  { id: "#show-align-self-start-js", text: "alignSelf: 'start'" },
+  { id: "#show-align-self-end-js", text: "alignSelf: 'end'" },
+  { id: "#show-align-self-center-js", text: "alignSelf: 'center'" },
+  { id: "#show-align-self-stretch-js", text: "alignSelf: 'stretch'" },
 ];
 
 (function () {
