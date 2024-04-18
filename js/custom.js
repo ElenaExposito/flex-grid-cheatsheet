@@ -111,6 +111,101 @@ const texts = [
   // order
   { id: "#order-number", text: "order: 0;" },
 
+  // FLEX + JS
+  // Display
+  { id: "#display-flex-js", text: "display: 'flex'" },
+  { id: "#display-inline-flex-js", text: "display: 'inlineFlex'" },
+
+  // flexDirection
+  { id: "#flex-direction-row-js", text: "flexDirection: 'row'" },
+  { id: "#flex-direction-row-reverse-js", text: "flexDirection: 'rowReverse'" },
+  { id: "#flex-direction-column-js", text: "flexDirection: 'column'" },
+  {
+    id: "#flex-direction-column-reverse-js",
+    text: "flexDirection: 'columnReverse'",
+  },
+
+  // flexWrap
+  { id: "#flex-wrap-nowrap-js", text: "flexWrap: 'nowrap'" },
+  { id: "#flex-wrap-wrap-js", text: "flexWrap: 'wrap'" },
+  { id: "#flex-wrap-wrap-reverse-js", text: "flexWrap: 'wrapReverse'" },
+
+  // flexFlow
+  { id: "#flex-flow-row-nowrap-js", text: "flexFlow: 'row nowrap'" },
+  { id: "#flex-flow-row-wrap-js", text: "flexFlow: 'row wrap'" },
+  {
+    id: "#flex-flow-row-reverse-nowrap-js",
+    text: "flexFlow: 'rowReverse nowrap'",
+  },
+  { id: "#flex-flow-row-reverse-wrap-js", text: "flexFlow: 'rowReverse wrap'" },
+  { id: "#flex-flow-column-nowrap-js", text: "flexFlow: 'column nowrap'" },
+  { id: "#flex-flow-column-wrap-js", text: "flexFlow: 'column wrap'" },
+  {
+    id: "#flex-flow-column-reverse-nowrap-js",
+    text: "flexFlow: 'columnReverse nowrap'",
+  },
+  {
+    id: "#flex-flow-column-reverse-wrap-js",
+    text: "flexFlow: 'columnReverse wrap'",
+  },
+
+  // justifyContent
+  { id: "#justify-content-flex-start-js", text: "justifyContent: 'flexStart'" },
+  { id: "#justify-content-center-js", text: "justifyContent: 'center'" },
+  { id: "#justify-content-flex-end-js", text: "justifyContent: 'flexEnd'" },
+  {
+    id: "#justify-content-space-between-js",
+    text: "justifyContent: 'spaceBetween'",
+  },
+  {
+    id: "#justify-content-space-around-js",
+    text: "justifyContent: 'spaceAround'",
+  },
+  {
+    id: "#justify-content-space-evenly-js",
+    text: "justifyContent: 'spaceEvenly'",
+  },
+
+  // alignItems
+  { id: "#align-items-flex-start-js", text: "alignItems: 'flexStart'" },
+  { id: "#align-items-center-js", text: "alignItems: 'center'" },
+  { id: "#align-items-flex-end-js", text: "alignItems: 'flexEnd'" },
+  { id: "#align-items-baseline-js", text: "alignItems: 'baseline'" },
+  { id: "#align-items-stretch-js", text: "alignItems: 'stretch'" },
+
+  // alignContent
+  { id: "#align-content-flex-start-js", text: "alignContent: 'flexStart'" },
+  { id: "#align-content-center-js", text: "alignContent: 'center'" },
+  { id: "#align-content-flex-end-js", text: "alignContent: 'flexEnd'" },
+  { id: "#align-content-stretch-js", text: "alignContent: 'stretch'" },
+  {
+    id: "#align-content-space-between-js",
+    text: "alignContent: 'spaceBetween'",
+  },
+  { id: "#align-content-space-around-js", text: "alignContent: 'spaceAround'" },
+
+  // flexGrow
+  { id: "#flex-grow-number-js", text: "flexGrow: '0'" },
+
+  // flexShrink
+  { id: "#flex-shrink-number-js", text: "flexShrink: '0'" },
+
+  // flexBasis
+  { id: "#flex-basis-auto-js", text: "flexBasis: 'auto'" },
+  { id: "#flex-basis-content-js", text: "flexBasis: 'content'" },
+  { id: "#flex-basis-size-js", text: "flexBasis: '100px'" },
+
+  // alignSelf
+  { id: "#align-self-auto-js", text: "alignSelf: 'auto'" },
+  { id: "#align-self-flex-start-js", text: "alignSelf: 'flexStart'" },
+  { id: "#align-self-center-js", text: "alignSelf: 'center'" },
+  { id: "#align-self-flex-end-js", text: "alignSelf: 'flexEnd'" },
+  { id: "#align-self-baseline-js", text: "alignSelf: 'baseline'" },
+  { id: "#align-self-stretch-js", text: "alignSelf: 'stretch'" },
+
+  // order
+  { id: "#order-number-js", text: "order: '0'" },
+
   // GRID
   // Display
   { id: "#display-grid", text: "display: grid;" },

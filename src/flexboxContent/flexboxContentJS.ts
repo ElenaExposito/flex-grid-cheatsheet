@@ -12,13 +12,13 @@ export function getWebviewContentFlexJS(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox Cheatsheet</title>
+    <title>Flexbox Cheatsheet (CSS in JS)</title>
     <link rel="stylesheet" href="${stylePath}/custom.css" />
   </head>
 
   <body>
     <main>
-      <h1>Flexbox Cheatsheet</h1>
+      <h1>Flexbox Cheatsheet (CSS in JS)</h1>
 
       <div class="container-properties">
         <h2>Container Properties</h2>
@@ -34,13 +34,13 @@ export function getWebviewContentFlexJS(
           </h3>
 
           <div class="display-flex">
-            <div class="property" id="display-flex">
+            <div class="property" id="display-flex-js">
               <div>
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#flex"
                   target="_blank"
                   rel="noopener"
-                  >display: flex;</a
+                  >display: 'flex'</a
                 >
               </div>
               <div class="show">
@@ -53,13 +53,13 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="display-inline-flex">
+            <div class="property" id="display-inline-flex-js">
               <div>
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-flex"
                   target="_blank"
                   rel="noopener"
-                  >display: inline-flex;</a
+                  >display: 'inlineFlex'</a
                 >
               </div>
               <div class="show show-display-inline-flex">
@@ -83,12 +83,12 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction"
                 target="_blank"
                 rel="noopener"
-                >flex-direction</a
+                >flexDirection</a
               >
             </h4>
-            <div class="property" id="flex-direction-row">
+            <div class="property" id="flex-direction-row-js">
               <div>
-                <span class="property-title">flex-direction</span>: row;
+                <span class="property-title">flexDirection</span>: 'row'
               </div>
               <div class="show show-flex-direction-row">
                 <span class="item item-1"></span>
@@ -100,9 +100,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-direction-row-reverse">
+            <div class="property" id="flex-direction-row-reverse-js">
               <div>
-                <span class="property-title">flex-direction</span>: row-reverse;
+                <span class="property-title">flexDirection</span>: 'rowReverse'
               </div>
               <div class="show show-flex-direction-row-reverse">
                 <span class="item item-1"></span>
@@ -114,9 +114,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-direction-column">
+            <div class="property" id="flex-direction-column-js">
               <div>
-                <span class="property-title">flex-direction</span>: column;
+                <span class="property-title">flexDirection</span>: 'column'
               </div>
               <div class="show show-flex-direction-column">
                 <span class="item-reverse item-1"></span>
@@ -128,10 +128,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-direction-column-reverse">
+            <div class="property" id="flex-direction-column-reverse-js">
               <div>
-                <span class="property-title">flex-direction</span>:
-                column-reverse;
+                <span class="property-title">flexDirection</span>:
+                'columnReverse'
               </div>
               <div class="show show-flex-direction-column-reverse">
                 <span class="item-reverse item-1"></span>
@@ -150,11 +150,11 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap"
                 target="_blank"
                 rel="noopener"
-                >flex-wrap</a
+                >flexWrap</a
               >
             </h4>
-            <div class="property" id="flex-wrap-nowrap">
-              <div><span class="property-title">flex-wrap</span>: nowrap;</div>
+            <div class="property" id="flex-wrap-nowrap-js">
+              <div><span class="property-title">flexWrap</span>: 'nowrap'</div>
               <div class="show show-flex-wrap-nowrap">
                 <span class="item item-1"></span>
                 <span class="item item-2"></span>
@@ -165,8 +165,8 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-wrap-wrap">
-              <div><span class="property-title">flex-wrap</span>: wrap;</div>
+            <div class="property" id="flex-wrap-wrap-js">
+              <div><span class="property-title">flexWrap</span>: 'wrap'</div>
               <div class="show two-columns show-flex-wrap-wrap">
                 <div class="column">
                   <span class="item-column item-1"></span>
@@ -185,9 +185,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-wrap-wrap-reverse">
+            <div class="property" id="flex-wrap-wrap-reverse-js">
               <div>
-                <span class="property-title">flex-wrap</span>: wrap-reverse;
+                <span class="property-title">flexWrap</span>: 'wrapReverse'
               </div>
               <div class="show two-columns show-flex-wrap-wrap-reverse">
                 <div class="column">
@@ -214,12 +214,12 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow"
                 target="_blank"
                 rel="noopener"
-                >flex-flow</a
+                >flexFlow</a
               >
             </h4>
-            <div class="property" id="flex-flow-row-nowrap">
+            <div class="property" id="flex-flow-row-nowrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: row nowrap;
+                <span class="property-title">flexFlow</span>: 'row nowrap'
               </div>
               <div class="show show-flex-flow-row-nowrap">
                 <span class="item item-1"></span>
@@ -231,9 +231,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-row-wrap">
+            <div class="property" id="flex-flow-row-wrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: row wrap;
+                <span class="property-title">flexFlow</span>: 'row wrap'
               </div>
               <div class="show show-flex-flow-row-wrap">
                 <span class="item item-1"></span>
@@ -245,10 +245,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-row-reverse-nowrap">
+            <div class="property" id="flex-flow-row-reverse-nowrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: row-reverse
-                nowwrap;
+                <span class="property-title">flexFlow</span>: 'rowReverse
+                nowrap'
               </div>
               <div class="show show-flex-flow-row-reverse-nowrap">
                 <span class="item item-1"></span>
@@ -260,9 +260,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-row-reverse-wrap">
+            <div class="property" id="flex-flow-row-reverse-wrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: row-reverse wrap;
+                <span class="property-title">flexFlow</span>: 'rowReverse wrap'
               </div>
               <div class="show show-flex-flow-row-reverse-wrap">
                 <span class="item item-1"></span>
@@ -274,9 +274,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-column-nowrap">
+            <div class="property" id="flex-flow-column-nowrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: column nowrap;
+                <span class="property-title">flexFlow</span>: 'column nowrap'
               </div>
               <div class="show two-columns show-flex-flow-column-nowrap">
                 <div class="column">
@@ -296,9 +296,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-column-wrap">
+            <div class="property" id="flex-flow-column-wrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: column wrap;
+                <span class="property-title">flexFlow</span>: 'column wrap'
               </div>
               <div class="show two-columns show-flex-flow-column-wrap">
                 <div class="column">
@@ -318,10 +318,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-column-reverse-nowrap">
+            <div class="property" id="flex-flow-column-reverse-nowrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: column-reverse
-                nowrap;
+                <span class="property-title">flexFlow</span>: 'columnReverse
+                nowrap'
               </div>
               <div
                 class="show two-columns show-flex-flow-column-reverse-nowrap"
@@ -343,10 +343,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="flex-flow-column-reverse-wrap">
+            <div class="property" id="flex-flow-column-reverse-wrap-js">
               <div>
-                <span class="property-title">flex-flow</span>: column-reverse
-                wrap;
+                <span class="property-title">flexFlow</span>: 'columnReverse
+                wrap'
               </div>
               <div class="show two-columns show-flex-flow-column-reverse-wrap">
                 <div class="column">
@@ -377,12 +377,12 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content"
                 target="_blank"
                 rel="noopener"
-                >justify-content</a
+                >justifyContent</a
               >
             </h4>
-            <div class="property" id="justify-content-flex-start">
+            <div class="property" id="justify-content-flex-start-js">
               <div>
-                <span class="property-title">justify-content</span>: flex-start;
+                <span class="property-title">justifyContent</span>: 'flexStart'
               </div>
               <div class="show-flex show-justify-content-flex-start">
                 <span class="item item-1"></span>
@@ -391,9 +391,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="justify-content-center">
+            <div class="property" id="justify-content-center-js">
               <div>
-                <span class="property-title">justify-content</span>: center;
+                <span class="property-title">justifyContent</span>: 'center'
               </div>
               <div class="show show-justify-content-center">
                 <span class="item item-1"></span>
@@ -402,9 +402,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="justify-content-flex-end">
+            <div class="property" id="justify-content-flex-end-js">
               <div>
-                <span class="property-title">justify-content</span>: flex-end;
+                <span class="property-title">justifyContent</span>: 'flexEnd'
               </div>
               <div class="show show-justify-content-end">
                 <span class="item item-1"></span>
@@ -413,10 +413,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="justify-content-space-between">
+            <div class="property" id="justify-content-space-between-js">
               <div>
-                <span class="property-title">justify-content</span>:
-                space-between;
+                <span class="property-title">justifyContent</span>:
+                'spaceBetween'
               </div>
               <div class="show show-justify-content-space-between">
                 <span class="item item-1"></span>
@@ -425,10 +425,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="justify-content-space-around">
+            <div class="property" id="justify-content-space-around-js">
               <div>
-                <span class="property-title">justify-content</span>:
-                space-around;
+                <span class="property-title">justifyContent</span>:
+                'spaceAround'
               </div>
               <div class="show show-justify-content-space-around">
                 <span class="item item-1"></span>
@@ -437,10 +437,10 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="justify-content-space-evenly">
+            <div class="property" id="justify-content-space-evenly-js">
               <div>
-                <span class="property-title">justify-content</span>:
-                space-evenly;
+                <span class="property-title">justifyContent</span>:
+                'spaceEvenly'
               </div>
               <div class="show show-justify-content-space-evenly">
                 <span class="item item-1"></span>
@@ -460,12 +460,12 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items"
                 target="_blank"
                 rel="noopener"
-                >align-items</a
+                >alignItems</a
               >
             </h4>
-            <div class="property" id="align-items-flex-start">
+            <div class="property" id="align-items-flex-start-js">
               <div>
-                <span class="property-title">align-items</span>: flex-start;
+                <span class="property-title">alignItems</span>: 'flexStart'
               </div>
               <div class="show show-align-items-flex-start">
                 <span class="item align item-1"></span>
@@ -477,9 +477,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-items-center">
+            <div class="property" id="align-items-center-js">
               <div>
-                <span class="property-title">align-items</span>: center;
+                <span class="property-title">alignItems</span>: 'center'
               </div>
               <div class="show show-align-items-center">
                 <span class="item align item-1"></span>
@@ -491,9 +491,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-items-flex-end">
+            <div class="property" id="align-items-flex-end-js">
               <div>
-                <span class="property-title">align-items</span>: flex-end;
+                <span class="property-title">alignItems</span>: 'flexEnd'
               </div>
               <div class="show show-align-items-flex-end">
                 <span class="item align item-1"></span>
@@ -505,9 +505,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-items-baseline">
+            <div class="property" id="align-items-baseline-js">
               <div>
-                <span class="property-title">align-items</span>: baseline;
+                <span class="property-title">alignItems</span>: 'baseline'
               </div>
               <div class="show show-align-items-baseline">
                 <span class="item align item-1"></span>
@@ -519,9 +519,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-items-stretch">
+            <div class="property" id="align-items-stretch-js">
               <div>
-                <span class="property-title">align-items</span>: stretch;
+                <span class="property-title">alignItems</span>: 'stretch'
               </div>
               <div class="show show-align-items-stretch">
                 <span class="item item-1"></span>
@@ -544,12 +544,12 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content"
                 target="_blank"
                 rel="noopener"
-                >align-content</a
+                >alignContent</a
               >
             </h4>
-            <div class="property" id="align-content-flex-start">
+            <div class="property" id="align-content-flex-start-js">
               <div>
-                <span class="property-title">align-content</span>: flex-start;
+                <span class="property-title">alignContent</span>: 'flexStart'
               </div>
               <div class="show show-flex-align-content-flex-start">
                 <div class="column column-align-content">
@@ -569,9 +569,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-content-center">
+            <div class="property" id="align-content-center-js">
               <div>
-                <span class="property-title">align-content</span>: center;
+                <span class="property-title">alignContent</span>: 'center'
               </div>
               <div class="show show-flex-align-content-center">
                 <div class="column column-align-content">
@@ -591,9 +591,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-content-flex-end">
+            <div class="property" id="align-content-flex-end-js">
               <div>
-                <span class="property-title">align-content</span>: flex-end;
+                <span class="property-title">alignContent</span>: 'flexEnd'
               </div>
               <div class="show show-flex-align-content-flex-end">
                 <div class="column column-align-content">
@@ -613,9 +613,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-content-stretch">
+            <div class="property" id="align-content-stretch-js">
               <div>
-                <span class="property-title">align-content</span>: stretch;
+                <span class="property-title">alignContent</span>: 'stretch'
               </div>
               <div class="show two-columns show-align-content-stretch">
                 <div class="column">
@@ -635,10 +635,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-content-space-between">
+            <div class="property" id="align-content-space-between-js">
               <div>
-                <span class="property-title">align-content</span>:
-                space-between;
+                <span class="property-title">alignContent</span>: 'spaceBetween'
               </div>
               <div class="show show-align-content-space-between">
                 <div class="column column-align-content">
@@ -658,9 +657,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-content-space-around">
+            <div class="property" id="align-content-space-around-js">
               <div>
-                <span class="property-title">align-content</span>: space-around;
+                <span class="property-title">alignContent</span>: 'spaceAround'
               </div>
               <div class="show show-align-content-space-around">
                 <div class="column column-align-content">
@@ -695,11 +694,11 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow"
                 target="_blank"
                 rel="noopener"
-                >flex-grow</a
+                >flexGrow</a
               >
             </h4>
-            <div class="property" id="flex-grow-number">
-              <div><span class="property-title">flex-grow</span>: number;</div>
+            <div class="property" id="flex-grow-number-js">
+              <div><span class="property-title">flexGrow</span>: 'number'</div>
               <div class="show">
                 <span class="item show-flex-grow-number item-1"></span>
                 <span class="item show-flex-grow-number item-3"></span>
@@ -714,12 +713,12 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink"
                 target="_blank"
                 rel="noopener"
-                >flex-shrink</a
+                >flexShrink</a
               >
             </h4>
-            <div class="property" id="flex-shrink-number">
+            <div class="property" id="flex-shrink-number-js">
               <div>
-                <span class="property-title">flex-shrink</span>: number;
+                <span class="property-title">flexShrink</span>: 'number'
               </div>
               <div class="show">
                 <span
@@ -736,11 +735,11 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis"
                 target="_blank"
                 rel="noopener"
-                >flex-basis</a
+                >flexBasis</a
               >
             </h4>
-            <div class="property" id="flex-basis-size">
-              <div><span class="property-title">flex-basis</span>: size;</div>
+            <div class="property" id="flex-basis-size-js">
+              <div><span class="property-title">flexBasis</span>: 'size'</div>
               <div class="show">
                 <span class="item show-flex-basis-size item-1"></span>
                 <span class="item show-flex-basis-size item-3"></span>
@@ -759,11 +758,11 @@ export function getWebviewContentFlexJS(
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-self"
                 target="_blank"
                 rel="noopener"
-                >align-self</a
+                >alignSelf</a
               >
             </h4>
-            <div class="property" id="align-self-auto">
-              <div><span class="property-title">align-self</span>: auto;</div>
+            <div class="property" id="align-self-auto-js">
+              <div><span class="property-title">alignSelf</span>: 'auto'</div>
               <div class="show">
                 <span class="item align-self-item item-1"></span>
                 <span class="item align-self-item item-2"></span>
@@ -776,9 +775,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-self-flex-start">
+            <div class="property" id="align-self-flex-start-js">
               <div>
-                <span class="property-title">align-self</span>: flex-start;
+                <span class="property-title">alignSelf</span>: 'flexStart'
               </div>
               <div class="show">
                 <span class="item align-self-item item-1"></span>
@@ -792,8 +791,8 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-self-center">
-              <div><span class="property-title">align-self</span>: center;</div>
+            <div class="property" id="align-self-center-js">
+              <div><span class="property-title">alignSelf</span>: 'center'</div>
               <div class="show">
                 <span class="item align-self-item item-1"></span>
                 <span class="item align-self-item item-2"></span>
@@ -806,9 +805,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-self-flex-end">
+            <div class="property" id="align-self-flex-end-js">
               <div>
-                <span class="property-title">align-self</span>: flex-end;
+                <span class="property-title">alignSelf</span>: 'flexEnd'
               </div>
               <div class="show">
                 <span class="item align-self-item item-1"></span>
@@ -822,9 +821,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-self-baseline">
+            <div class="property" id="align-self-baseline-js">
               <div>
-                <span class="property-title">align-self</span>: baseline;
+                <span class="property-title">alignSelf</span>: 'baseline'
               </div>
               <div class="show">
                 <span class="item align-self-item item-1"></span>
@@ -838,9 +837,9 @@ export function getWebviewContentFlexJS(
               </div>
             </div>
 
-            <div class="property" id="align-self-stretch">
+            <div class="property" id="align-self-stretch-js">
               <div>
-                <span class="property-title">align-self</span>: stretch;
+                <span class="property-title">alignSelf</span>: 'stretch'
               </div>
               <div class="show">
                 <span class="item align-self-item item-1"></span>
@@ -864,8 +863,8 @@ export function getWebviewContentFlexJS(
                 >order</a
               >
             </h4>
-            <div class="property" id="order-number">
-              <div><span class="property-title">order</span>: number;</div>
+            <div class="property" id="order-number-js">
+              <div><span class="property-title">order</span>: 'number'</div>
               <div class="show">
                 <span class="item show-order-number item-1"></span>
                 <span class="item show-order-number item-2"></span>
@@ -883,8 +882,6 @@ export function getWebviewContentFlexJS(
     <script src="${scriptPath}/custom.js"></script>
   </body>
 </html>
-
-
 
   `;
 }
