@@ -97,7 +97,7 @@ _**"Flexbox and Gridbox CheatSheet"** is a visual and easy way to look up CSS ru
 1. Clone the repository
 
    ```sh
-   git clone https://github.com/midudev/la-velada-web-oficial.git
+   git clone ElenaExposito/flex-grid-cheatsheet
    ```
 
 2. Install NPM packages
